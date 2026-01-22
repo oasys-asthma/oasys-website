@@ -87,7 +87,7 @@ Aside from CPU usage, server metrics are mostly out of our control, but we can s
 
 **CPU**: The more CPU usage, the more carbon emissions, from [electricity usage](#electricity-usage) and [embodied carbon](#embodied--embedded-carbon)
 
-## {{<co2>}} metrics
+## co2 metrics
 
 The calculation of carbon emissions comes from https://sustainablewebdesign.org/calculating-digital-emissions/, which in turn comes from [Perspectives on Internet Electricity Use in 2030, Anders S.G. Andrae, June 2020](https://www.researchgate.net/publication/342643762_New_perspectives_on_internet_electricity_use_in_2030).
 

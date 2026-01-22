@@ -25,13 +25,13 @@ You can read our [Methodology](/methodology) for more information about how thes
 | ---------- | -------------------------------------- | ------------------ |
 | 121        | -                                      | -                  |
 
-## {{<co2>}} metrics
+## co2 metrics
 
 The website currently doesn't have any analytics, so we don't know how many times each page is loaded, which means we don't know how much carbon is emitted.
 
 Instead we can calculate the emissions for each page in the website being viewed once. These calculations are very approximate, the core metrics are more actionable.
 
-|             | {{<co2>}} (kilograms) |
+|             | co2 (kilograms) |
 | ----------- | --------------------- |
 | First Load  | 26                    |
 | Second Load | 1                     |

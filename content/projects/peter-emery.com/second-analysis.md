@@ -31,13 +31,13 @@ You can read our [Methodology](/methodology) for more information about how thes
 
 These metrics show huge improvements over the old website, which is mostly down to there being fewer pages (18 instead of 121). The caching and the mobile transfer size is improved, which you would expect when using a standard template. The average transfer size has increased a little, mostly due to the standard template using javascript inefficiently. The CPU usage on the client has increased a lot, also mostly due to uneccesarily complicated CSS.
 
-## {{<co2>}} metrics
+## co2 metrics
 
 The website currently doesn't yet have useful analytics, so we don't know how many times each page is loaded, which means we don't know how much carbon is emitted.
 
 Instead we can calculate the emissions for each page in the website being viewed once. These calculations are very approximate, the core metrics are more actionable.
 
-|             | {{<co2>}} (kilograms)               |
+|             | co2 (kilograms)               |
 | ----------- | ----------------------------------- |
 | First Load  | 4.4 ({{<improvement text="83%">}})  |
 | Second Load | 0.08 ({{<improvement text="92%">}}) |

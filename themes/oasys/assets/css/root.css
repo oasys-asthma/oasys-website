@@ -417,15 +417,6 @@ body>footer {
       width: auto;
     }
 
-    img.disability-confident {
-      height: var(--s4);
-      width: auto;
-      align-self: flex-start;
-      background-color: var(--grayscale-white);
-      padding: var(--s-3);
-      border-radius: var(--s-3);
-    }
-
     small {
       font: var(--font-body-small);
     }
@@ -553,6 +544,7 @@ body {
   background-color: white;
   font: var(--font-body);
   min-inline-size: 300px;
+  min-block-size: 100vh;
 
   main {
 

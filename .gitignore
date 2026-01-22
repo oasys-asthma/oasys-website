@@ -1,0 +1,6 @@
+.DS_Store
+.gitmodules
+.hugo_build.lock
+**/_gen
+public
+.dccache

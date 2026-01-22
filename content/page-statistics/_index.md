@@ -31,9 +31,9 @@ Load time is also calculated using the [Performance interface](https://developer
 
 It is calculated as the time from [Navigation Start](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming/navigationStart) (when you click on a link or type in a url) to [Dom Complete](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming/domComplete) (which more or less means that the browser has finished showing the page).
 
-## {{<co2>}}
+## co2
 
-The {{<co2>}} calculation is very broad brush, and uses global average values for everything apart from the **Transfer Size**. Estimating carbon emissions from websites is at a very early stage, and all of the current calculations are like this. You can read our [Methodology](/methodology) for more information about emissions and how to optimise.
+The co2 calculation is very broad brush, and uses global average values for everything apart from the **Transfer Size**. Estimating carbon emissions from websites is at a very early stage, and all of the current calculations are like this. You can read our [Methodology](/methodology) for more information about emissions and how to optimise.
 
 It is assumed that each Gigabyte of **Transfer Size** uses 0.81 Kilowatt Hours of energy.
 

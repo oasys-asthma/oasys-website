@@ -5,7 +5,6 @@ draft: false
 description: "Analyses of carbon emissions for peter-emery.com by Green Pages"
 ---
 
-{{< img src="peter-emery.com.png" alt="Sample screenshot">}}
 
 ## First analysis
 

@@ -1,6 +1,9 @@
 # todo
 
 - [ ] Home page
+  - [ ] do a shortcode for the first bit of the page (the heading basically)
+  - [ ] do shortcodes for the linked card things
+  - [ ] add linked cards to the home page as per the existing step by step instructions
 - [ ] header bit
 - [ ] footer bit
 - [ ] Use oasys colors instead of equipmii ones

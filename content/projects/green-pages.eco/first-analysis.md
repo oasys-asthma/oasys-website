@@ -28,13 +28,13 @@ The "Second Load" numbers are usually smaller, as some things are already cached
 | ---------- | -------------------------------------- | ------------------ |
 | 7          | -                                      | >16%               |
 
-## {{<co2>}} metrics
+## co2 metrics
 
 This website is new, and at the time of writing, doesn't have enough analytics to be useful, so we don't know how many times each page is loaded, which means we don't know how much carbon is emitted.
 
 Instead we can calculate the emissions for each page in the website being viewed once. These calculations are very approximate, the core metrics are more actionable.
 
-|             | {{<co2>}} (kilograms) |
+|             | co2 (kilograms) |
 | ----------- | --------------------- |
 | First Load  | 0.016                 |
 | Second Load | 0.01                  |
