@@ -1,19 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-    {{- partial "head.html" . -}}
-    <body>
-        <div class="docs-page">
-            {{- partial "header.html" . -}}
-            <div class="docs-main stack stackSplitAfter1">
-                    <main class="stack">
-                        <h1><span>{{ .Title }}</span></h1>
-                        {{ partial "breadcrumb.html" . }}
-                        <hr />
-                        {{- block "main" . }}{{- end }}
-                    </main>
-                    {{- partial "footer.html" . -}}
+{{- partial "head.html" . -}}
+
+<body>
+    {{- partial "header.html" . -}}
+    <main>
+        <section class="page-header end-of-chunk">
+            <div>
+                <h2>{{ .Title }}</h2>
+                <p>todo.</p>
+                {{ partial "breadcrumb.html" . }}
+
             </div>
-        </div>
-        {{- partial "script.html" . -}}
-    </body>
+        </section>
+        <section class="text left">
+            <div>
+                <div>
+                    {{- block "main" . }}{{- end }}
+                </div>
+            </div>
+        </section>
+    </main>
+    {{- partial "footer.html" . -}}
+    {{- partial "script.html" . -}}
+</body>
+
 </html>
