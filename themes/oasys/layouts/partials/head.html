@@ -1,0 +1,17 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{ $title := print .Site.Title " | " .Title }}
+    {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+    <title>{{ $title }}</title>
+    <link rel="icon" type="image/svg" sizes="32x32" href='data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 384 512">
+        <path
+            d="M0 64C0 28.65 28.65 0 64 0H224V128C224 145.7 238.3 160 256 160H384V448C384 483.3 355.3 512 320 512H64C28.65 512 0 483.3 0 448V64z" />
+        <path fill="green" d="M256 128V0L384 128H256z" />
+    </svg>'>
+    {{ $css := resources.Get "css/root.css" | minify }}
+    <link href="{{ $css.RelPermalink }}" rel="stylesheet" type="text/css">
+    <meta
+          name="description"
+          content="{{ if .Params.summary }}{{ .Params.summary }}{{ else if .Site.Params.Description }}{{ .Site.Params.Description }}{{ else }}Oasys - software to aid diagnosis of occupational asthma from serial spirometry.{{ end }}" />
+</head>

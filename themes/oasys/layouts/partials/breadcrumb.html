@@ -1,0 +1,16 @@
+{{ $parent := .Parent }}
+{{ if $parent.Parent }}
+<nav><span>{{ template "breadcrumbnav" . }}</span></nav>
+{{ end }}
+
+{{ define "breadcrumbnav" }}
+    {{ with .Parent }}
+        {{ template "breadcrumbnav" . }}
+            {{ if .Parent }} - {{ end }}
+        {{ if .IsHome }}
+            <a href="{{ .Permalink }}">Home</a>
+            {{ else }}
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+        {{ end }}
+    {{ end }}
+{{ end }}

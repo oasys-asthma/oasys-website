@@ -1,0 +1,5 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-uk'
+title = 'Oasys'
+theme = "Oasys"
+enableRobotsTXT = true

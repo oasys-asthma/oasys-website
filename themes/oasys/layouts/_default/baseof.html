@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    {{- partial "head.html" . -}}
+    <body>
+        <div class="docs-page">
+            {{- partial "header.html" . -}}
+            <div class="docs-main stack stackSplitAfter1">
+                    <main class="stack">
+                        <h1><span>{{ .Title }}</span></h1>
+                        {{ partial "breadcrumb.html" . }}
+                        <hr />
+                        {{- block "main" . }}{{- end }}
+                    </main>
+                    {{- partial "footer.html" . -}}
+            </div>
+        </div>
+        {{- partial "script.html" . -}}
+    </body>
+</html>

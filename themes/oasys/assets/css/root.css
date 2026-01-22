@@ -1,0 +1,1466 @@
+:root {
+  --grayscale-black: #131210;
+  --grayscale-very-dark-gray: #2d2a25;
+  --grayscale-dark-gray: #5a554b;
+  --grayscale-medium-gray: #b4aa96;
+  --grayscale-light-gray: #d0c7b5;
+  --grayscale-very-light-gray: #e7ddc9;
+  --grayscale-off-white: #f6f2eb;
+  --grayscale-white: #f8f7f6;
+
+  --teal: #1f404e;
+  --primary-0: #fa7a64;
+  --primary-0-darker: #E04C30;
+
+  --background-0: white;
+  --foreground-0: var(--grayscale-black);
+  --background-1: #FCF6E2;
+  --foreground-1: var(--grayscale-black);
+  --background-2: #E3E9FB;
+  --foreground-2: var(--grayscale-black);
+  --background-3: #FEABD5;
+  --foreground-3: var(--grayscale-black);
+  --background-4: #FADBD5;
+  --foreground-4: var(--grayscale-black);
+  --background-5: #1F404E;
+  --foreground-5: var(--grayscale-white);
+  --background-6: var(--grayscale-off-white);
+  --foreground-6: var(--grayscale-black);
+
+  --card-background-1: #F97957;
+  --card-background-2: #feabd5;
+  --card-background-3: #1f404e;
+  --card-background-4: #a3c0c9;
+  --card-background-5: #99BCE7;
+
+  --ratio: 1.3;
+  --s-11: calc(var(--s-10) / var(--ratio));
+  --s-10: calc(var(--s-9) / var(--ratio));
+  --s-9: calc(var(--s-8) / var(--ratio));
+  --s-8: calc(var(--s-7) / var(--ratio));
+  --s-7: calc(var(--s-6) / var(--ratio));
+  --s-6: calc(var(--s-5) / var(--ratio));
+  --s-5: calc(var(--s-4) / var(--ratio));
+  --s-4: calc(var(--s-3) / var(--ratio));
+  --s-3: calc(var(--s-2) / var(--ratio));
+  --s-2: calc(var(--s-1) / var(--ratio));
+  --s-1: calc(var(--s0) / var(--ratio));
+  /* If this is changed, make sure to change the sizes attribute in the html for the related img elements */
+  --s0: clamp(0.8rem, min(4vh, 2.5vw), 3rem);
+  --s1: calc(var(--s0) * var(--ratio));
+  --s2: calc(var(--s1) * var(--ratio));
+  --s3: calc(var(--s2) * var(--ratio));
+  --s4: calc(var(--s3) * var(--ratio));
+  --s5: calc(var(--s4) * var(--ratio));
+  --s6: calc(var(--s5) * var(--ratio));
+  --s7: calc(var(--s6) * var(--ratio));
+  --s8: calc(var(--s7) * var(--ratio));
+  --s9: calc(var(--s8) * var(--ratio));
+  --s10: calc(var(--s9) * var(--ratio));
+  --s11: calc(var(--s10) * var(--ratio));
+  --s12: calc(var(--s11) * var(--ratio));
+  --s13: calc(var(--s12) * var(--ratio));
+
+  /* If this is changed, make sure to change the sizes attribute in the html for the related img elements */
+  --vw0: clamp(0px, calc(3vw - 1rem), 1vw);
+  --vw1: calc(var(--vw0) * var(--ratio));
+  --vw2: calc(var(--vw1) * var(--ratio));
+  --vw3: calc(var(--vw2) * var(--ratio));
+  --vw4: calc(var(--vw3) * var(--ratio));
+  --vw5: calc(var(--vw4) * var(--ratio));
+  --vw6: calc(var(--vw5) * var(--ratio));
+  --vw7: calc(var(--vw6) * var(--ratio));
+  --vw8: calc(var(--vw7) * var(--ratio));
+  --vw9: calc(var(--vw8) * var(--ratio));
+  --vw10: calc(var(--vw9) * var(--ratio));
+  --vw11: calc(var(--vw10) * var(--ratio));
+  --vw12: calc(var(--vw11) * var(--ratio));
+  --vw13: calc(var(--vw12) * var(--ratio));
+
+  --page-inline-border: var(--s2);
+  --page-block-border: var(--s0);
+  --section-padding: var(--s4);
+
+  --font-family: sans-serif;
+  --measure: 40ch;
+  --measure-big: 55ch;
+
+  --font-ratio: 1.1;
+  --f-5: calc(var(--f-4) / var(--font-ratio));
+  --f-4: calc(var(--f-3) / var(--font-ratio));
+  --f-3: calc(var(--f-2) / var(--font-ratio));
+  --f-2: calc(var(--f-1) / var(--font-ratio));
+  --f-1: calc(var(--f0) / var(--font-ratio));
+  /* If this is changed, make sure to change the sizes attribute in the html for the related img elements */
+  --f0: clamp(1rem, min(2.5vh, 1.6vw), 2.5rem);
+  --f1: calc(var(--f0) * var(--font-ratio));
+  --f2: calc(var(--f1) * var(--font-ratio));
+  --f3: calc(var(--f2) * var(--font-ratio));
+  --f4: calc(var(--f3) * var(--font-ratio));
+  --f5: calc(var(--f4) * var(--font-ratio));
+  --f6: calc(var(--f5) * var(--font-ratio));
+  --f7: calc(var(--f6) * var(--font-ratio));
+  --f8: calc(var(--f7) * var(--font-ratio));
+  --f9: calc(var(--f8) * var(--font-ratio));
+  --f10: calc(var(--f9) * var(--font-ratio));
+  --f11: calc(var(--f10) * var(--font-ratio));
+  --f12: calc(var(--f11) * var(--font-ratio));
+  --f13: calc(var(--f12) * var(--font-ratio));
+  --f14: calc(var(--f13) * var(--font-ratio));
+  --f15: calc(var(--f14) * var(--font-ratio));
+  --f16: calc(var(--f15) * var(--font-ratio));
+  --f17: calc(var(--f16) * var(--font-ratio));
+  --f18: calc(var(--f17) * var(--font-ratio));
+  --f19: calc(var(--f18) * var(--font-ratio));
+  --f20: calc(var(--f19) * var(--font-ratio));
+  --f21: calc(var(--f20) * var(--font-ratio));
+  --f22: calc(var(--f21) * var(--font-ratio));
+  --f23: calc(var(--f22) * var(--font-ratio));
+  --f24: calc(var(--f23) * var(--font-ratio));
+  --f25: calc(var(--f24) * var(--font-ratio));
+  --f26: calc(var(--f25) * var(--font-ratio));
+  --f27: calc(var(--f26) * var(--font-ratio));
+
+  /* dont do this (font-size: blah), it becomes the base for the rems if you do, instead of using the user / browser setting. 
+  font-size: var(--f0); */
+  font-family: var(--font-family);
+  font-optical-sizing: auto;
+  /* these are the line heights recommended by every layout, but not used by figma */
+  --line-height-big: calc(var(--ratio) * var(--ratio));
+  --line-height: var(--ratio);
+  --line-height-small: calc(0.8 * var(--ratio));
+  --font-body-very-small: normal normal 400 max(1rem, var(--f-3)) / var(--line-height-big) var(--font-family);
+  --font-body-small: normal normal 400 var(--f0) / var(--line-height-big) var(--font-family);
+  --font-body: normal normal 400 var(--f1) / var(--line-height-big) var(--font-family);
+  /* the space between lines, line height - font height */
+  --font-body-padding: 0 calc(var(--f1) * calc(var(--line-height-big) - 1));
+  --font-body-bold: normal normal 600 var(--f1) / var(--line-height-big) var(--font-family);
+  /* --font-body-big: normal normal 400 var(--f2) / var(--line-height-big) var(--font-family); */
+  --font-h1: normal normal 700 var(--f9) / var(--line-height) var(--font-family);
+  --font-h2: normal normal 700 var(--f8) / var(--line-height) var(--font-family);
+  /* the space between lines, line height - font height */
+  --font-h2-padding: 0 calc(var(--f8) * calc(var(--line-height) - 1));
+  --font-h3: normal normal 600 var(--f6) / var(--line-height) var(--font-family);
+  /* the space between lines, line height - font height */
+  --font-h3-padding: 0 calc(var(--f6) * calc(var(--line-height) - 1));
+  --font-h4: normal normal 600 var(--f4) / var(--line-height) var(--font-family);
+  --font-h5: normal normal 600 var(--f3) / var(--line-height) var(--font-family);
+  --font-h6: normal normal 600 var(--f2) / var(--line-height) var(--font-family);
+  --border-regular-width: var(--s-11);
+  --border-regular: var(--border-regular-width) solid var(--grayscale-very-light-gray);
+  --border-radius-page: var(--s2);
+
+  color: var(--grayscale-very-dark-gray);
+  box-sizing: border-box;
+  /* Stroke and fill set to hex values for off white, not sure if this is the best thing to do */
+  --tick-icon: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' stroke='%23f8f7f6' fill='%23f8f7f6'%3E%3Cpath d='M20.6644 5.2526C21.0772 5.61952 21.1143 6.25159 20.7474 6.66437L10.0808 18.6644C9.89099 18.8779 9.61898 19 9.33334 19C9.04771 19 8.7757 18.8779 8.58593 18.6644L3.2526 12.6644C2.88568 12.2516 2.92286 11.6195 3.33565 11.2526C3.74843 10.8857 4.3805 10.9229 4.74742 11.3356L9.33334 16.4948L19.2526 5.33565C19.6195 4.92286 20.2516 4.88568 20.6644 5.2526Z' /%3E%3C/svg%3E%0A");
+}
+
+/* Team page 
+------------------------------------------------- */
+body.team main {
+
+  /* Layout of pictures */
+  section.team {
+    padding-inline: 0;
+
+    >div+div {
+      margin-block-start: var(--s0);
+    }
+
+    >div {
+      display: flex;
+      flex-flow: row wrap;
+      gap: var(--f0) var(--f-1);
+      justify-content: center;
+
+      /* If this is changed, make sure to change the sizes attribute in the html for the related img elements */
+      --team-image-size: var(--f25);
+      --team-circle-gap: var(--f-4);
+
+      max-inline-size: unset;
+
+      /* figure:nth-child(even) {
+                @container (width > 25em) {
+                    margin-block-end: calc(0.5* var(--team-image-size));
+
+                    div {
+                        top: calc(0.5 * var(--team-image-size));
+                    }
+
+                    figcaption {
+                        top: calc(0.5 * var(--team-image-size));
+                    }
+                }
+            } */
+
+      figure {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        div {
+          inline-size: var(--team-image-size);
+          block-size: var(--team-image-size);
+          position: relative;
+          border-radius: var(--team-image-size);
+          background-color: var(--primary-0);
+          flex-shrink: 0;
+          flex-grow: 0;
+        }
+
+        img {
+          inline-size: calc(var(--team-image-size) + var(--team-circle-gap));
+          block-size: calc(var(--team-image-size) + var(--team-circle-gap));
+          position: absolute;
+          left: calc(-0.5 * var(--team-circle-gap));
+          top: var(--team-circle-gap);
+          border-end-end-radius: var(--team-image-size);
+          border-end-start-radius: var(--team-image-size);
+          background-color: transparent;
+          object-fit: cover;
+        }
+
+        figcaption {
+          position: relative;
+          background-color: var(--grayscale-off-white);
+          border: var(--border-regular);
+          border-radius: var(--s-2);
+          padding-inline: var(--s-5);
+          inline-size: fit-content;
+          max-inline-size: calc(var(--team-image-size) * 1.5);
+          text-align: center;
+          font: var(--font-body-very-small);
+
+          h3 {
+            font: var(--font-body-small);
+          }
+
+        }
+      }
+    }
+  }
+}
+
+/* Form pages
+------------------------------------------------- */
+body.form main {
+  form {
+    font: var(--font-body);
+    max-inline-size: var(--measure);
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--s1);
+
+    >section {
+      display: flex;
+      flex-direction: column;
+      row-gap: var(--s0);
+
+      >fieldset {
+        display: flex;
+        flex-direction: column;
+        row-gap: var(--s-3);
+
+        /* These are for 'other' options as part of a checkbox group / radio group */
+        label:has(> input[type="checkbox"])~label,
+        label:has(> input[type="radio"])~label {
+          padding: var(--s-3) var(--s-1);
+          border-radius: var(--s-3);
+          border: var(--border-regular);
+
+          span {
+            color: var(--grayscale-dark-gray);
+          }
+
+          input {
+            border: none;
+          }
+        }
+      }
+    }
+
+    label {
+      display: block;
+    }
+
+    input,
+    textarea {
+      font: var(--font-body);
+      width: 100%;
+    }
+
+    input[type="checkbox"],
+    input[type="radio"] {
+      position: absolute;
+      opacity: 0;
+      pointer-events: none;
+      /* width:auto avoids an overscroll x problem */
+      width: auto;
+    }
+
+    input[type="checkbox"]+span,
+    input[type="radio"]+span {
+      min-width: calc(var(--f1) * var(--line-height-big));
+      height: calc(var(--f1) * var(--line-height-big));
+      border: var(--s-9) solid var(--primary-0);
+      cursor: pointer;
+      border-radius: var(--s-7);
+    }
+
+    input[type="radio"]+span {
+      border-radius: var(--s0);
+    }
+
+    input[type="checkbox"]:checked+span,
+    input[type="radio"]:checked+span {
+      background-color: var(--primary-0);
+      background-image: var(--tick-icon);
+      background-size: contain;
+    }
+
+    input,
+    textarea,
+    label:has(> input[type="checkbox"]),
+    label:has(> input[type="radio"]) {
+      writing-mode: horizontal-tb !important;
+      padding: var(--s-3) var(--s-1);
+      border-radius: var(--s-3);
+      border: var(--border-regular);
+    }
+
+    label:has(> input[type="checkbox"]),
+    label:has(> input[type="radio"]) {
+      color: var(--grayscale-dark-gray);
+      display: flex;
+      flex-direction: row;
+      gap: var(--s0);
+    }
+
+    label:has(> input[type="checkbox"]:checked),
+    label:has(> input[type="radio"]:checked) {
+      border-color: var(--primary-0);
+      color: var(--grayscale-black);
+    }
+
+    input:focus,
+    textarea:focus,
+    label:has(> input[type="checkbox"]:focus),
+    label:has(> input[type="radio"]:focus) {
+      outline: solid var(--s-9) var(--grayscale-light-gray);
+      outline-offset: 0;
+      border-color: transparent;
+    }
+
+    span.smallprint {
+      font: var(--font-body-very-small);
+    }
+
+    button {
+      font: var(--font-body);
+      color: var(--grayscale-white);
+      background-color: var(--teal);
+      border-radius: var(--s4);
+      padding-inline: var(--s3);
+      padding-block: var(--s-2);
+      width: 100%;
+    }
+  }
+}
+
+/* Footer 
+------------------------------------------------- */
+/* Only have rounded corners if the preceding section was the white / blank background */
+body.straight-footer>footer {
+  border-radius: 0;
+}
+
+body>footer {
+  padding-block: var(--s3);
+  padding-inline: var(--page-inline-border);
+  border-start-start-radius: var(--border-radius-page);
+  border-start-end-radius: var(--border-radius-page);
+  container: site-footer / inline-size;
+  font: var(--font-body-small);
+
+  p {
+    max-inline-size: 30ch;
+  }
+
+  nav {
+    display: flex;
+    flex-flow: row wrap;
+    gap: var(--s0);
+  }
+
+  nav section {
+    flex-grow: 1;
+    /* The width in the container query and this calculation should be the same */
+    flex-basis: calc((60ch - 100%) * 999);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @container site-footer (width < 60ch) {
+      align-items: flex-start;
+    }
+  }
+
+  nav section:first-child div {
+    display: flex;
+    flex-direction: column;
+    gap: var(--s-1);
+
+    img {
+      height: var(--s1);
+      width: auto;
+    }
+
+    img.disability-confident {
+      height: var(--s4);
+      width: auto;
+      align-self: flex-start;
+      background-color: var(--grayscale-white);
+      padding: var(--s-3);
+      border-radius: var(--s-3);
+    }
+
+    small {
+      font: var(--font-body-small);
+    }
+  }
+
+  nav section p:has(+ul) {
+    margin-bottom: var(--s0);
+    font: var(--font-body-bold);
+  }
+
+  nav section ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: var(--s-2);
+  }
+
+  nav section:nth-child(3) li {
+    display: flex;
+    flex-direction: row;
+    gap: var(--s0);
+    align-items: center;
+
+    svg {
+      inline-size: var(--s0);
+      block-size: var(--s0);
+      flex-shrink: 0;
+    }
+  }
+}
+
+/* Header 
+------------------------------------------------- */
+body>header.business {
+  background-color: var(--background-5);
+  color: var(--foreground-5);
+
+  nav {
+    #mobile-menu {
+      #header-links {
+        background-color: var(--background-5);
+      }
+    }
+  }
+}
+
+body>header {
+  background-color: var(--grayscale-off-white);
+  padding-top: var(--page-block-border);
+  padding-inline: var(--page-inline-border);
+
+  & h1 {
+    flex-grow: 1;
+  }
+
+  & h1 img {
+    height: var(--s1);
+    width: auto;
+  }
+
+  & nav {
+    display: flex;
+    flex-direction: row;
+    gap: var(--s0);
+
+    >ul {
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      column-gap: var(--s-2);
+    }
+
+    #mobile-menu {
+      display: none;
+
+      #header-links {
+        width: 100%;
+        background-color: var(--grayscale-off-white);
+        top: calc(var(--page-block-border) + calc(var(--f9) * var(--line-height)));
+        padding-inline: var(--page-inline-border);
+        padding-bottom: var(--s0);
+        transition: transform 0.2s ease-out;
+        transform: translate(-100%);
+        display: block;
+
+        &:popover-open {
+          transform: translate(0);
+        }
+
+        ul {
+          list-style-type: none;
+        }
+      }
+    }
+
+    @media (width <=35em) {
+      #mobile-menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      #desktop-menu {
+        display: none;
+      }
+    }
+  }
+}
+
+body.home>header {
+  background-color: white;
+
+  nav {
+    #mobile-menu {
+      #header-links {
+        background-color: white;
+      }
+    }
+  }
+}
+
+/* Shared 
+------------------------------------------------- */
+body {
+  background-color: white;
+  font: var(--font-body);
+  min-inline-size: 300px;
+
+  main {
+
+    /* When there is no change in color the gap looks too large */
+    >section.background-0+section.background-0 {
+      padding-block-start: 0;
+    }
+
+    >section {
+      padding-inline: var(--page-inline-border);
+      padding-block: var(--section-padding);
+      overflow: hidden;
+
+      >div {
+        max-inline-size: 50em;
+        margin: auto;
+        container-type: inline-size;
+      }
+    }
+
+    section.start-of-chunk {
+      border-start-start-radius: var(--border-radius-page);
+      border-start-end-radius: var(--border-radius-page);
+      overflow: hidden;
+    }
+
+    section.end-of-chunk {
+      border-end-end-radius: var(--border-radius-page);
+      border-end-start-radius: var(--border-radius-page);
+      overflow: hidden;
+    }
+
+    section.page-header.background-5 {
+      color: var(--foreground-5);
+      background-color: var(--background-5);
+
+      h2>span,
+      p>span {
+        background-color: var(--background-5);
+      }
+
+    }
+
+    section.page-header.business-squiggle-1 {
+      background-image: url("images/business-squiggle-1.svg");
+
+      @media (width < 85ch) {
+        background-image: none;
+      }
+    }
+
+    section.page-header {
+      color: var(--foreground-6);
+      background-color: var(--background-6);
+      background-image: url("images/equipmii-squiggle-3.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: right;
+
+      @media (width < 85ch) {
+        background-image: none;
+      }
+
+      >div {
+        h2 {
+          /* This stops the heading interfering with the squiggle much */
+          max-inline-size: calc(var(--measure) * 0.7);
+        }
+
+        h2>span,
+        p>span {
+          background-color: var(--grayscale-off-white);
+          border-radius: var(--s-6);
+          box-decoration-break: clone;
+        }
+
+        h2>span {
+          padding-block: var(--font-h2-padding);
+          padding-inline: var(--s-5);
+        }
+
+        p>span {
+          padding-block: var(--font-body-padding);
+          padding-inline: var(--s-5);
+        }
+
+        h2,
+        p {
+          inline-size: fit-content;
+
+          @container (width < 40ch) {
+            margin-inline: auto;
+            text-align: center;
+          }
+        }
+
+        p {
+          padding-block-start: var(--s-2);
+        }
+      }
+    }
+
+    section.image-and-text {
+      @media (width < 85ch) {
+        background-image: none;
+      }
+
+      >div {
+        display: flex;
+        flex-flow: row wrap;
+        gap: var(--s0);
+
+        div {
+          /* This 23em should be the same as the 23em in the container query below */
+          flex-basis: calc((23em - 100%) * 999);
+        }
+
+        @container (width < 23em) {
+          div.image img.wide {
+            inline-size: 100%;
+          }
+
+          div.text {
+            align-items: center;
+            order: 1;
+
+            h2,
+            h3,
+            p {
+              text-align: center;
+            }
+
+            a {
+              display: block;
+              margin: auto;
+            }
+          }
+        }
+
+        div.image {
+          flex-grow: 1;
+          align-content: center;
+
+          img {
+            inline-size: var(--s9);
+            block-size: auto;
+            display: block;
+            margin: auto;
+            object-fit: contain;
+          }
+
+          &.top {
+            margin-block-start: calc(-1 * var(--section-padding));
+            align-self: flex-start;
+          }
+        }
+
+        div.text {
+          flex-grow: 2;
+          justify-content: center;
+          display: flex;
+          flex-direction: column;
+          gap: var(--s0);
+
+          h2,
+          h3 {
+            inline-size: fit-content;
+            text-wrap: balance;
+          }
+
+          h2,
+          h3,
+          p {
+            max-inline-size: var(--measure);
+
+          }
+
+          h2,
+          h3,
+          p>span {
+            border-radius: var(--s-6);
+            box-decoration-break: clone;
+          }
+
+          h2>span {
+            padding-block: var(--font-h2-padding);
+            padding-inline: var(--s-3);
+          }
+
+          h3>span {
+            padding-block: var(--font-h3-padding);
+            padding-inline: var(--s-3);
+          }
+
+          p>span {
+            padding-block: var(--font-body-padding);
+            padding-inline: var(--s-5);
+          }
+
+          p>span.every-body {
+            padding: 0;
+            border-radius: 0;
+          }
+
+          a {
+            margin-right: auto;
+
+          }
+        }
+
+        div.text:first-child {
+          padding-inline-start: var(--vw5);
+        }
+      }
+    }
+
+    section.photo-and-text {
+      >div {
+        display: flex;
+        flex-flow: row wrap;
+        gap: var(--s0);
+        --image-offset-size: var(--s4);
+
+        & div.photo {
+          flex-grow: 1;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          margin-bottom: var(--image-offset-size);
+          margin-left: calc(0.5 * var(--image-offset-size));
+          /* This em  value should be the same as values in the container queries below */
+          flex-basis: calc((30em - 100%) * 999);
+
+          >div {
+            position: relative;
+            border-radius: var(--s11);
+            background-color: var(--primary-0);
+            inline-size: 100%;
+            aspect-ratio: 1 / 1;
+
+            >svg {
+              position: absolute;
+              block-size: 300%;
+              inline-size: 600%;
+              left: -300%;
+              top: -100%;
+              color: var(--primary-0);
+
+              @container (width < 30em) {
+                display: none;
+              }
+            }
+
+            >img {
+              display: block;
+              margin: auto;
+              inline-size: 100%;
+              block-size: 100%;
+              position: absolute;
+              left: calc(-0.5 * var(--image-offset-size));
+              top: var(--image-offset-size);
+              border-radius: var(--s11);
+              background-color: white;
+              object-fit: cover;
+            }
+          }
+        }
+
+        & div.text {
+          flex-grow: 3;
+          align-content: center;
+          display: flex;
+          flex-direction: column;
+          gap: var(--s0);
+          /* This em  value should be the same as values in the container queries below */
+          flex-basis: calc((30em - 100%) * 999);
+          /* This is a bit of a hack but I couldn't find a better way */
+          z-index: 1;
+
+          @container (width < 30em) {
+            align-items: center;
+            order: 1;
+          }
+
+          h2,
+          h3,
+          p {
+            max-inline-size: var(--measure-big);
+
+            @container (width < 30em) {
+              text-align: center;
+            }
+          }
+
+          h2,
+          h3,
+          p>span {
+            border-radius: var(--s-6);
+            box-decoration-break: clone;
+          }
+
+          h2>span {
+            padding-block: var(--font-h2-padding);
+            padding-inline: var(--s-1);
+          }
+
+          h3>span {
+            padding-block: var(--font-h3-padding);
+            padding-inline: var(--s-3);
+          }
+
+          p>span {
+            padding-block: var(--font-body-padding);
+            padding-inline: var(--s-5);
+          }
+        }
+      }
+    }
+  }
+
+  section.video {
+    lite-vimeo {
+      width: 100%;
+
+      .ltv-playbtn {
+
+        &:focus {
+          outline: auto;
+        }
+      }
+    }
+  }
+
+  section.image {
+    >div {
+      display: flex;
+      flex-direction: column;
+      row-gap: var(--section-padding);
+      align-items: center;
+
+      h3 {
+        text-align: center;
+      }
+
+      img {
+        width: 100%;
+        border-radius: var(--s0);
+      }
+    }
+  }
+
+  section.cards {
+    >div {
+      div.title {
+        margin-block-end: var(--s0);
+      }
+
+      div.title.center {
+        text-align: center;
+      }
+
+      display: flex;
+      flex-direction: column;
+      row-gap: var(--s1);
+
+      div.cards {
+        display: flex;
+        flex-flow: row wrap;
+        gap: var(--s0);
+
+        div.card,
+        a.card {
+          /* This 25em should be the same as the 28em in the container query below */
+          flex-basis: calc((25em - 100%) * 999);
+        }
+
+      }
+
+      div.card-chain {
+        display: flex;
+        flex-direction: column;
+
+        @container (width < 25em) {
+          row-gap: var(--s0);
+        }
+      }
+
+      div.card-chain-segment {
+        display: flex;
+        flex-flow: row nowrap;
+
+        div.card {
+          flex-basis: 50%;
+        }
+
+        div.card+div.connector {
+          justify-content: start;
+        }
+
+        div.connector {
+          flex-grow: 1;
+          flex-basis: 50%;
+          display: flex;
+          align-items: end;
+          justify-content: end;
+
+          img,
+          svg {
+            inline-size: 50%;
+          }
+
+          @container (width < 25em) {
+            flex-grow: 0;
+            display: none;
+            inline-size: 0;
+          }
+
+        }
+      }
+
+      a.card {
+        text-decoration: unset;
+      }
+
+      div.card,
+      a.card {
+        padding: var(--s1);
+        border-radius: var(--s1);
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+
+        &.centered-on-mobile {
+          @container (width < 25em) {
+            align-items: center;
+            text-align: center;
+
+            a {
+              margin-inline: auto
+            }
+          }
+        }
+
+        img {
+          object-fit: cover;
+        }
+
+        div.bullet,
+        div.image {
+          inline-size: var(--s6);
+          block-size: var(--s6);
+          border-radius: var(--s6);
+          background-color: white;
+          display: block;
+          margin-left: auto;
+          margin-bottom: var(--s0);
+          overflow: hidden;
+          align-content: center;
+        }
+
+        div.image img {
+          inline-size: var(--s5);
+          border-radius: 0;
+          block-size: var(--s5);
+          margin-inline: auto;
+          margin-block: 0;
+        }
+
+        div.bullet {
+          font-size: var(--s4);
+          font-weight: 600;
+          color: var(--foreground-0);
+          text-align: center;
+          line-height: var(--line-height-small);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        h4 {
+          font: var(--font-body-bold);
+        }
+
+        p {
+          /* text-wrap: pretty; */
+          margin-top: var(--s-3);
+          flex-grow: 1;
+        }
+
+        a {
+          margin-top: var(--s0);
+          margin-right: auto;
+        }
+      }
+
+    }
+  }
+
+  section.text-and-text {
+    padding: 0;
+
+    >div {
+      display: flex;
+      flex-flow: row wrap;
+      container-type: inline-size;
+      margin: 0;
+      max-inline-size: unset;
+
+      >div:first-child {
+        padding-inline: var(--page-inline-border) var(--s-1);
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+      }
+
+      >div:last-child {
+        padding-inline: var(--s-1) var(--page-inline-border);
+      }
+
+      >div {
+        /* This 23em should be the same as the 23em in the container query below */
+        flex-basis: calc((23em - 100%) * 999);
+        flex-grow: 1;
+        padding-block: var(--s4);
+
+        >div {
+          padding-inline: var(--s-2);
+          padding-block: var(--s-4);
+          max-inline-size: var(--measure);
+
+          h3,
+          p>span {
+            border-radius: var(--s-6);
+            padding: var(--s-4);
+            box-decoration-break: clone;
+          }
+
+          h3>span {
+            padding-block: var(--font-h3-padding);
+            padding-inline: var(--s-3);
+          }
+
+          p>span {
+            padding-block: var(--font-body-padding);
+            padding-inline: var(--s-5);
+          }
+
+          h3 {
+            inline-size: fit-content;
+            font: var(--font-h4);
+          }
+
+          h3,
+          p {
+            @container (width < 23em) {
+              margin-inline: auto;
+              text-align: center;
+            }
+          }
+
+          p {
+            padding-block-start: var(--s-2);
+          }
+        }
+      }
+    }
+  }
+
+  section.text.left {
+    >div {
+      justify-content: flex-start;
+    }
+
+    @media (width < 85ch) {
+      >div {
+        div {
+
+          h2,
+          h3,
+          p,
+          blockquote,
+          ul {
+            text-align: start;
+          }
+        }
+      }
+    }
+  }
+
+  section.text.center {
+    >div {
+      justify-content: center;
+
+      div {
+        align-items: stretch;
+      }
+    }
+
+    @media (width < 85ch) {
+      >div {
+        div {
+
+          h2,
+          h3,
+          p,
+          blockquote,
+          ul {
+            text-align: center;
+            text-wrap: balance;
+          }
+        }
+      }
+    }
+  }
+
+  section.text.right {
+    >div {
+      justify-content: flex-end;
+    }
+
+    @media (width < 85ch) {
+      >div {
+        div {
+
+          h2,
+          h3,
+          p,
+          blockquote,
+          ul {
+            text-align: start;
+          }
+        }
+      }
+    }
+  }
+
+  section.text {
+
+    &.background-3>div div li::marker,
+    &.background-4>div div li::marker {
+      color: var(--teal);
+    }
+
+    >div {
+      display: flex;
+
+      div {
+        border-radius: var(--s0);
+        padding: var(--s-1);
+        max-inline-size: var(--measure-big);
+        display: flex;
+        flex-direction: column;
+        row-gap: var(--s-1);
+
+        h3>span,
+        p>span {
+          border-radius: var(--s-6);
+          box-decoration-break: clone;
+        }
+
+        h3>span {
+          padding-inline: var(--s-3);
+          padding-block: var(--font-h3-padding)
+        }
+
+        p>span {
+          padding-inline: var(--s-5);
+          padding-block: var(--font-body-padding)
+        }
+
+        h3 {
+          inline-size: fit-content;
+        }
+
+        a {
+          text-align: center;
+        }
+
+        p,
+        blockquote,
+        ul {
+          text-align: start;
+        }
+
+        h3+* {
+          padding-block-start: var(--s-3);
+        }
+
+        ul,
+        ol {
+          list-style-position: inside;
+        }
+
+        li {
+          margin-inline-start: 1ch;
+
+          &::marker {
+            color: var(--primary-0)
+          }
+        }
+      }
+    }
+
+    @media (width < 85ch) {
+      background-image: none;
+    }
+  }
+
+  section.unordered-list {
+    >div {
+      & h3 {
+        margin-inline: auto;
+        text-align: center;
+        max-inline-size: var(--measure);
+      }
+
+      h3+* {
+        margin-block-start: var(--s3);
+      }
+
+      ul {
+        position: relative;
+        padding-inline: 0;
+        list-style-type: none;
+        margin-inline: auto;
+        inline-size: fit-content;
+        max-inline-size: var(--measure);
+        font: var(--font-body-bold);
+      }
+
+      ul::before {
+        content: '';
+        position: absolute;
+        top: 0.7lh;
+        bottom: 0.7lh;
+        left: 0.33lh;
+        width: 0.33lh;
+        background-color: var(--grayscale-black);
+      }
+
+      li {
+        position: relative;
+        display: flex;
+        column-gap: var(--s2);
+        align-items: center;
+        margin-inline-start: 0;
+      }
+
+      li+li {
+        margin-block-start: var(--f13);
+      }
+
+      li span {
+        border-radius: 100%;
+        min-width: calc(var(--f1) * var(--line-height-big));
+        height: calc(var(--f1) * var(--line-height-big));
+        background-color: var(--primary-0);
+        display: inline-block;
+      }
+    }
+  }
+}
+
+h2 {
+  font: var(--font-h2);
+}
+
+h3 {
+  font: var(--font-h3);
+}
+
+h4 {
+  font: var(--font-h4);
+}
+
+p,
+h2 {
+  max-inline-size: var(--measure-big);
+}
+
+.card.card-1 {
+  color: var(--grayscale-black);
+  background-color: var(--card-background-1);
+}
+
+.card-1.connector {
+  color: var(--card-background-1);
+}
+
+.card.card-2 {
+  color: var(--grayscale-black);
+  background-color: var(--card-background-2);
+}
+
+.connector.card-2 {
+  color: var(--card-background-2);
+}
+
+.card.card-3 {
+  color: var(--grayscale-white);
+  background-color: var(--card-background-3);
+}
+
+.connector.card-3 {
+  color: var(--card-background-3);
+}
+
+.card.card-4 {
+  color: var(--grayscale-black);
+  background-color: var(--card-background-4);
+}
+
+.connector.card-4 {
+  color: var(--card-background-4);
+}
+
+.card.card-5 {
+  color: var(--grayscale-black);
+  background-color: var(--card-background-5);
+}
+
+.connector.card-5 {
+  color: var(--card-background-5);
+}
+
+.background-0 {
+  background-color: var(--background-0);
+  color: var(--foreground-0);
+}
+
+.background-1 {
+  background-color: var(--background-1);
+  color: var(--foreground-1);
+}
+
+.background-2 {
+  background-color: var(--background-2);
+  color: var(--foreground-2);
+}
+
+.background-3 {
+  background-color: var(--background-3);
+  color: var(--foreground-3);
+}
+
+.background-4 {
+  background-color: var(--background-4);
+  color: var(--foreground-4);
+}
+
+.background-5 {
+  background-color: var(--background-5);
+  color: var(--foreground-5);
+}
+
+.background-6 {
+  background-color: var(--background-6);
+  color: var(--foreground-6);
+}
+
+a.button {
+  &:focus {
+    outline-style: solid;
+  }
+
+  font: var(--font-body-small);
+  display: inline-block;
+  border-radius: var(--s2);
+  padding-inline: var(--s0);
+  padding-block: var(--s-5);
+  border-width: var(--border-regular-width);
+  text-decoration: none;
+  outline-width: var(--s-8);
+  outline-offset: calc(-1 * var(--s-6));
+  outline-color: currentcolor;
+}
+
+blockquote {
+  &::before {
+    content: open-quote;
+  }
+
+  &::after {
+    content: close-quote;
+  }
+
+  font-style: italic;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  * {
+    /* Very short durations means JavaScript that relies on events still works */
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  background-color: unset;
+  font-family: inherit;
+  color: inherit;
+  overflow-wrap: break-word;
+  margin: 0;
+  padding: 0;
+  border: 0 solid;
+  text-wrap: auto;
+}
