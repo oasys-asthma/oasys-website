@@ -82,8 +82,8 @@
   --section-padding: var(--s4);
 
   --font-family: sans-serif;
-  --measure: 40ch;
-  --measure-big: 55ch;
+  --measure: 45ch;
+  --measure-big: 60ch;
 
   --font-ratio: 1.1;
   --f-5: calc(var(--f-4) / var(--font-ratio));
@@ -450,18 +450,6 @@ body>footer {
 
 /* Header 
 ------------------------------------------------- */
-body>header.business {
-  background-color: var(--background-5);
-  color: var(--foreground-5);
-
-  nav {
-    #mobile-menu {
-      #header-links {
-        background-color: var(--background-5);
-      }
-    }
-  }
-}
 
 body>header {
   background-color: var(--grayscale-off-white);
@@ -577,74 +565,24 @@ body {
       overflow: hidden;
     }
 
-    section.page-header.background-5 {
-      color: var(--foreground-5);
-      background-color: var(--background-5);
-
-      h2>span,
-      p>span {
-        background-color: var(--background-5);
-      }
-
-    }
-
-    section.page-header.business-squiggle-1 {
-      background-image: url("images/business-squiggle-1.svg");
-
-      @media (width < 85ch) {
-        background-image: none;
-      }
-    }
-
     section.page-header {
       color: var(--foreground-6);
       background-color: var(--background-6);
-      background-image: url("images/equipmii-squiggle-3.svg");
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: right;
 
-      @media (width < 85ch) {
-        background-image: none;
-      }
+      h2,
+      p {
+        inline-size: fit-content;
 
-      >div {
-        h2 {
-          /* This stops the heading interfering with the squiggle much */
-          max-inline-size: calc(var(--measure) * 0.7);
-        }
-
-        h2>span,
-        p>span {
-          background-color: var(--grayscale-off-white);
-          border-radius: var(--s-6);
-          box-decoration-break: clone;
-        }
-
-        h2>span {
-          padding-block: var(--font-h2-padding);
-          padding-inline: var(--s-5);
-        }
-
-        p>span {
-          padding-block: var(--font-body-padding);
-          padding-inline: var(--s-5);
-        }
-
-        h2,
-        p {
-          inline-size: fit-content;
-
-          @container (width < 40ch) {
-            margin-inline: auto;
-            text-align: center;
-          }
-        }
-
-        p {
-          padding-block-start: var(--s-2);
+        @container (width < 40ch) {
+          margin-inline: auto;
+          text-align: center;
         }
       }
+
+      p {
+        padding-block-start: var(--s-2);
+      }
+
     }
 
     section.image-and-text {
