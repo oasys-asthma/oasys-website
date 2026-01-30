@@ -17,6 +17,8 @@
 - [ ] Maybe a team page being as i have the css for it already
 - [ ] Accesibility, put the axe tools on it
 - [ ] Remove unused css
+ - [ ] all the span stuff i think
+ - [ ] ...
 
 ## Reference
 
