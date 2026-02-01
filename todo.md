@@ -1,20 +1,15 @@
 # todo
 
-- [ ] Home page
-  - [ ] do a shortcode for the first bit of the page (the heading basically)
-  - [ ] do shortcodes for the linked card things
-  - [ ] add linked cards to the home page as per the existing step by step instructions
-- [ ] header bit
-- [ ] footer bit
-- [ ] Use oasys colors instead of equipmii ones
-- [ ] Some help pages
+- [ ] help / documentation pages
 - [ ] contact page
+- [ ] team page
+- [ ] download / install page
 - [ ] favicon
+- [ ] more styling
 - [ ] privacy policy
 - [ ] terms and conditions maybe
 - [ ] link to app store in footer probably / or link to download page
 - [ ] add an oasys linkedin page, and use the link
-- [ ] Maybe a team page being as i have the css for it already
 - [ ] Accesibility, put the axe tools on it
 - [ ] Remove unused css
  - [ ] all the span stuff i think
