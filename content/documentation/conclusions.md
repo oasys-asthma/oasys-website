@@ -1,8 +1,8 @@
 ---
-title: "Shift trend graphs"
+title: "Oasys report conclusions"
 date: 2026-01-22T00:00:00+01:00
 draft: false
-description: "The shift trend graphs in Oasys"
+description: "The conclusions section of the Oasys report"
 ---
 
 Click on the "Conclusions" tab of the [Oasys report](/documentation/oasys-report) to access the Conclusions part of the report.
