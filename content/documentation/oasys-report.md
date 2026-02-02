@@ -9,16 +9,14 @@ The Oasys report shows the results of the Oasys Analysis of the record. Computer
 
 To open the report click on "View - Report"
 
-todo add links
-The report is also the place to add comments and add opinions.
+The report is also the place to [add comments](documentation/adding-comments) and [add opinions](documentation/adding-opinions).
 
-todo add links
 The Oasys report has 5 sections, and each one has its own dedicated page, linked below.
 
-- The Daily Maximum, Minimum and Mean Graph
-- The "2 Hourly" Time of Day Graphs
-- The "2 Hourly" Time from Waking Graphs
-- The Shift Trend Graphs
-- The Conclusions
+- The [Daily Maximum, Minimum and Mean Graph](documentation/daily-graph)
+- The ["2 Hourly" Time of Day Graphs](documentation/time-of-day-graphs)
+- The ["2 Hourly" Time from Waking Graphs]](documentation/time-from-waking-graphs)
+- The [Shift Trend Graphs]](documentation/shift-trend-graphs)
+- The [Conclusions]](documentation/conclusions)
 
 Each page of the report can be copied and then pasted into other applications. Click anywhere on a page of the report and then click on "Edit - Copy". A message will appear telling you the dimensions of the graph. Simply open the other program and paste in the picture. The picture is copied as a metafile, or .emf (as opposed to a .jpg, .gif etc) and some programs like to be told the original size of the image, which is why you are shown the message.

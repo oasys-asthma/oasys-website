@@ -9,8 +9,7 @@ Click on the "Conclusions" tab of the [Oasys report](/documentation/oasys-report
 
 ### Patient Details
 
-todo add link to setting interpretation as recommended probably 
-This section shows the name, patient id, dates of the record, peak flow meter used, level of exposure, workplace, jobs, predicted peak flow, treatments and agents. Most of this is entered in the [patient demographics](/documentation/patient-demographics) window. It also shows the "Interpretation". We recommend [Pseudo Day Interpretation](/documentation/pseudo-day-interpretation) and it is the default, however it is not always possible, see the Setting the "interpretation" as recommended page for more details.
+This section shows the name, patient id, dates of the record, peak flow meter used, level of exposure, workplace, jobs, predicted peak flow, treatments and agents. Most of this is entered in the [patient demographics](/documentation/patient-demographics) window. It also shows the "Interpretation". We recommend [Pseudo Day Interpretation](/documentation/pseudo-day-interpretation) and it is the default, however it is not always possible, see the [Setting the interpretation as recommended](/documentation/setting-recommended-interpretation) page for more details.
 
 ### Quality
 
@@ -21,8 +20,7 @@ The quality for the ABC score and timepoint score follow.
 
 If the record is "sloping" (either improves or deteriorates throughout the record) Oasys will tell you how much the record is sloping in L/Min/Day. The Oasys scores do not work very well with high angles of slope. We remove any records with a >5 L/Min/Day slope from our research projects and we are reluctant to diagnose records with more than 2 or 3 L/Min/Day. Oasys can only detect an average slope, and sometimes records are sloping for good reasons. For example a patient on holiday for 2 weeks followed by work for 2 weeks would be expected to slope downwards during the record if he was worse at work. Some human decision making is required here.
 
-todo add link to number preference
-Oasys checks the record for number preference, to detect rounding to the nearest 50 or 25. If the patient has made up a large number of readings this can usually be spotted by eye. Oasys displays number preference graphs to help with this. See the section on number preference for more information.
+Oasys checks the record for [number preference](/documentation/number-preference), to detect rounding to the nearest 50 or 25. If the patient has made up a large number of readings this can usually be spotted by eye. Oasys displays number preference graphs to help with this. See the section on number preference for more information.
 
 Oasys checks the record for signs of respiratory tract infections. These are shown on the [Daily Graph](/documentation/daily-graph) and can be excluded from the record or commented on by [adding a comment](/documentation/adding-comments). The dates of any possible respiratory tract infections are shown on the report.
 
@@ -53,4 +51,3 @@ The Oasys-2 score for the record is then shown, in bold, along with a percentage
 Following this a warning is shown if there is no predicted peak flow for the record. You should enter the predicted peak flow if you can (this involves knowing the sex, height and age of the patient and is entered from the [patient demographics](/documentation/patient-demographics)).
 
 Following this the various Oasys scores are listed, along with the percentage chance of occupational asthma based on the score and quality. Click to view the published papers defining these percentages for the [ABC score](https://journal.chestnet.org/article/S0012-3692(09)60117-3/abstract) and the [Timepoint Score](https://thorax.bmj.com/content/64/12/1032?keytype=ref&ijkey=C6PCKKBVIubUcoD).
-

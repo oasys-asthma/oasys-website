@@ -15,8 +15,7 @@ First of all enter the start date of the record on this step. There are no probl
 
 A list of patients from your patient details file is shown. If you have already entered a previous record for the patient then click on the patient in the list. The list can be sorted by ID, First name and surname by clicking on the headings. You can also type in a name or patient id and the list will go to the next match as you type.
 
-todo add link
-If the list is unexpectedly empty, or the patient is not in the list and you think it should be, then there is probably an issue with your patient details file. See Sharing / transporting your Patient Details for more information.
+If the list is unexpectedly empty, or the patient is not in the list and you think it should be, then there is probably an issue with your patient details file. See [sharing your patient details](/documentation/sharing-patient-details) for more information.
 
 If this is the first record for the patient then click on "This is the first record I have entered for this patient".
 
@@ -28,7 +27,6 @@ If you have chosen an existing patient Oasys may add some warnings for things yo
 
 ### Patient Demographics
 
-todo add link
-The patient demographics are available on the "Patient Info", "Record Info", "Workplace" and "Reading" steps. Please see the help on the "Patient Demographics" window for more details about these as they are (nearly) identical.
+The patient demographics are available on the "Patient Info", "Record Info", "Workplace" and "Reading" steps. Please see the help on the [Patient Demographics](/documentation/patient-demographics) window for more details about these as they are (nearly) identical.
 
 When you have finished entering the demographic details for the record click on "Finished" to create the record.

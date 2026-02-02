@@ -11,8 +11,7 @@ This situation is nothing to worry about, Oasys will not complain and you will b
 
 To change the patient for a record (and in the example above bring together the two records for "Joe Bloggs") click on "File - Save to Different Patient" from the main menu and a new window will open. Click on the patient that you want to change to, tick the box to confirm the change and then click OK. You will not be able to click OK until you have ticked the box to confirm the change, to try and avoid mistakes.
 
-todo add link
-If you have a patient that you no longer need then you can delete it (in the example above, the "J.Bloggs" is no longer used so can be deleted to avoid confusion). See deleting patients and records for more information.
+If you have a patient that you no longer need then you can delete it (in the example above, the "J.Bloggs" is no longer used so can be deleted to avoid confusion). See [deleting patients and records](/documentation/deleting-patients-and-records) for more information.
 
 In the screenshot below a record for "J. Bloggs" is being saved to "Joe Bloggs". The tick box at the bottom has not been ticked so the OK button is not available. The tick box shows how the patient details will change for the record.
 

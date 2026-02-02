@@ -15,8 +15,7 @@ We are entering this report for all patients that we investigate for occupationa
 
 The Oasys server stores all the anonymous parts of this data and can produce reports on occupational asthma incidence. It can also link in with regional occupational asthma surveillance schemes such as Shield. If you run a regional scheme please get in touch so that we can talk to you about it. No personally identifiable information is ever sent to or stored on the Oasys Server. The name, ID and suchlike on this report come from your patient details file.
 
-todo add link
-Please see the help on Oasys Patient Audit Data for details on entering the data for this report.
+Please see the page on [Oasys Patient Audit Data](/documentation/editing-patient-audit-data) for details on entering the data for this report.
 
 To see the report for a different patient click on the button at the top right of the main form that is displaying the name and demographics of the patient.
 

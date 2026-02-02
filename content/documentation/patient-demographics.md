@@ -25,8 +25,7 @@ Choose the type of peak flow meter. If it is not listed choose "Other" and enter
 
 Add respiratory related treatments (which could include beta blockers). Please use generic names where possible. Clicking on the "Add" button will pop up a list of treatments. If the one you want is not on the list then click "Other" (at the bottom of the pop up list of treatments) and enter it by hand.
 
-todo add link
-You can specify whether there are any confounding factors in the record (such as treatment change, respiratory tract infection etc) if you have checked for this. We advise you to add a comment to a record if you know of any confounding factors (see Adding Comments from the Oasys Report).
+You can specify whether there are any confounding factors in the record (such as treatment change, respiratory tract infection etc) if you have checked for this. We advise you to add a comment to a record if you know of any confounding factors (see [Adding Comments](/documentation/adding-comments) from the [Oasys Report](/documentation/oasys-report)).
 
 Oasys always plots its graphs at the same scale. This is so that users can easily recognise patterns. If the patient's PEF varies a lot you can click on "Show graphs at half normal scale". The scale will be smaller and the graphs will have a watermark so that it is very obvious that the scale has been changed.
 

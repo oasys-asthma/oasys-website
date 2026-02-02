@@ -30,8 +30,7 @@ If you are asked to allow oautil.exe access in the firewall then please do so. I
 
 It is possible that you have the wrong url for the Oasys Server. We try to change this as rarely as possible, but we do still need to change it sometimes (2 times in 15 years currently).
 
-todo add link to url of oasys server
-You can see what the value should be on the [URL of the Oasys Server](/documentation/blah) page. Go to the [oasys options](/documentation/oasys-options) and make sure that this value is entered in the "URL of the Oasys Server" box.
+You can see what the value should be on the [URL of the Oasys Server](/documentation/oasys-server-url) page. Go to the [oasys options](/documentation/oasys-options) and make sure that this value is entered in the "URL of the Oasys Server" box.
 
 If the Url of the Oasys server changes we will email everybody who has used Oasys in the last year to let them know.
 

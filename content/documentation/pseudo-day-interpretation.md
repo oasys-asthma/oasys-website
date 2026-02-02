@@ -13,7 +13,6 @@ Oasys has an option to "Day Interpret" a record into "Pseudo Days", this option 
 
 Oasys converts / pre processes days into "Pseudo Days". Each Pseudo day is only allowed to contain readings which are subject to an exposure at work, or those which are not. It cannot contain both. In addition each Pseudo Day must contain a reading within 90 minutes of waking up. These readings are usually the lowest of the day and can bias the results if they are missing. Oasys can copy these readings from nearby days if required.
 
-todo add link to Pseudo Day Interpretation Specification 
-Click on Pseudo Day Interpretation Specification for more details. This contains some common examples of how the pseudo day interpreter works, which are fairly easy to understand. It also contains the full specification for the pseudo day interpreter if you want to delve deeper.
+See the [Pseudo Day Interpretation Specification](/documentation/pseudo-day-interpretation-specification) page for more details. This contains some common examples of how the pseudo day interpreter works, which are fairly easy to understand. It also contains the full specification for the pseudo day interpreter if you want to delve deeper.
 
 If Pseudo Day Interpretation is turned off, Oasys simply compares readings on days at work with readings on days away from work.

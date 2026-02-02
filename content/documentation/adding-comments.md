@@ -5,8 +5,7 @@ draft: false
 description: "Adding comments in the Oasys report"
 ---
 
-todo add link to daily graph
-Comments are added by clicking the "Add Comment" button, underneath the Daily Graph of the [Oasys Report](/documentation/oasys-report). To open the report click "View - Report". To see the button you may need to scroll down below the graph. We attach the most importance to the Daily graph when analysing a record and this is why the Add Comment button is here.
+Comments are added by clicking the "Add Comment" button, underneath the [Daily Graph](/documentation/daily-graph) of the [Oasys Report](/documentation/oasys-report). To open the report click "View - Report". To see the button you may need to scroll down below the graph. We attach the most importance to the Daily graph when analysing a record and this is why the Add Comment button is here.
 
 Comments are also used to exclude certain sections of a record if required (for example if a patient had a respiratory infection for a part of the record it is usually wise to remove this bit).
 

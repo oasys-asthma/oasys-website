@@ -12,8 +12,7 @@ Sharing / Transporting your Patient Details
 
 Sometimes you may wish to share records externallly, say by email, for example to get an opinion from a colleague in another hospital. In this case you can export a new patient details file which can then be emailed. You can choose to anonymise the details to preserve confidentiality.
 
-todo add link to Exporting Patient Details for Open Records
-There are two ways to create a patient details file. This page is about exporting details for records that you currently have open in Oasys. The other method involves choosing from a list of all your records, please click on Exporting Patient Details for more information on this. 
+There are two ways to create a patient details file. This page is about exporting details for records that you currently have open in Oasys. The other method involves choosing from a list of all your records, please click on [exporting patient details](/documentation/exporting-patient-details) for more information on this. 
 
 If you already have the records open that you want to export then this method is quicker as you don't need to spend time choosing them from the list.
 

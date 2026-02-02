@@ -15,8 +15,7 @@ If you are using a meter that Oasys supports then the readings can be read in au
 
 To import the readings click on the button at the bottom left of the data sheet. A new window will appear. Click on "Import readings ...".
 
-todo add links
-See Importing Readings from Smart Peak Flow and Importing Readings from the eMini Wright for more details.
+See [Importing Readings from the eMini Wright](/documentation/e-mini-wright) for more details.
 
 ### I have made a mistake, do I really need to type it all in again?
 
@@ -40,7 +39,10 @@ The Symbols "W", "S", "E" and "B" are used to signify the "Waking Up", "Starting
 
 Events are entered by pressing the plus key or the enter key in the required box. Oasys automatically puts in the next logical event (Eg. after going to bed the next event must be to wake up). If this is not the desired event then press plus or enter again until the correct event is shown, or until the event is removed (if you wish to delete it).
 
-todo add symbols
+![](/assets/images/WakeUp16.ico)
+![](/assets/images/StartWork16.ico)
+![](/assets/images/EndWork16.ico)
+![](/assets/images/GoToBed16.ico)
 
 Oasys doesn't like it when the events for a record are in the wrong order and it will show you lots of nasty messages. A record must start with a "Wake Up" Event and continue until a "Go To Bed" event. An "End Work" can only come after a "Start Work", a "Wake Up" can only come after a "Go To Bed" and so on. Oasys can tell you which events it doesn't like. Click on the "Additional" button and then click on "Go To Next Invalid Event" from the menu that pops up. The screen and cursor will move to the next event that Oasys doesn't like. Often the real problem is with the event before this one so be sure to look at that one as well. Repeat this until the events are all in the correct order.
 
@@ -56,8 +58,7 @@ Each period at work can be given a particular exposure, which Oasys will analyse
 
 Whenever a "Start Work" event is entered it is automatically assigned the default exposure. If this is not applicable then click on the up and down arrows by the work exposure description (at the bottom left of the window) to select the correct one. You can also hold down the "Ctrl" key and press the up and down arrow keys to change the work exposure. Changing the work exposure can only be done having when youy are "inside" a work period. This exposure continues until the next "End Work" event. If a patient has two (or more) exposures in the same shift add an "End Work" to mark the end of one exposure and a "Start Work" to mark the start of the new exposure.
 
-todo add link
-Work exposures are added / modified / removed from the Patient Demographics.
+Work exposures are added / modified / removed from the [patient demographics](/documemntation/patient-demographics).
 
 The screenshot earlier shows two different work exposures, one marked in blue and the other with orange. The first day is also orange but has been selected for copy / paste (see below) so is shown in a darker shade.
 
@@ -79,10 +80,10 @@ Readings and events are usually entered to the nearest hour, but can be put in m
 
 If "Overlap" is shown in a box (only "Overl" is initially visible) then there is more than one reading within the hour. Holding the mouse over the box will list the readings. When this happens with events (waking up, going to bed, starting work, stopping work) the WSEB symbol is shown. Holding the mouse over the symbol will display list all these events.
 
-todo add wseb icon
+![](/assets/images/OverlapEvents16.ico)
 
 Readings shown in bold are outside of the 95% confidence interval for the record. Note that as more readings are added to a record the 95% confidence interval will change so it is best to review these readings once you have finished typing in the data.
 
 If there is a gap in the record where the patient has not taken any readings you can add a discontinuity and Oasys will effectively ignore it. This is only worth doing for gaps that are a day long or more. To do this add a "Wake Up" event at the start of the gap. Than move to the next hour down and click "Additional - Insert Discontinuity", then add a "Go To Bed" event at the end of the gap. The discontinuity is marked using the symbol below.
 
-todo add discontinuity icon
+![](/assets/images/Discontinuity16.ico)
