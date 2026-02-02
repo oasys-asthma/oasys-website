@@ -1,10 +1,10 @@
 :root {
-  --grayscale-black: #111111;
+  --grayscale-black: #111;
   --grayscale-very-dark-gray: #252525;
   --grayscale-dark-gray: #4b4b4b;
-  --grayscale-medium-gray: #aaaaaa;
+  --grayscale-medium-gray: #aaa;
   --grayscale-light-gray: #c7c7c7;
-  --grayscale-very-light-gray: #dddddd;
+  --grayscale-very-light-gray: #ddd;
   --grayscale-off-white: #f2f2f2;
   --grayscale-white: #f6f6f6;
 

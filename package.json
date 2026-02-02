@@ -1,0 +1,32 @@
+{
+  "name": "oasys-website",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/ceddlyburge/oasys-website#readme",
+  "bugs": {
+    "url": "https://github.com/ceddlyburge/oasys-website/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ceddlyburge/oasys-website.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "./public/index.html",
+  "scripts": {
+    "build": "hugo && npm run test",
+    "test": "npm run stylelint && npm run html-validate && npm run linkinator",
+    "stylelint": "stylelint ./themes/**/*.css",
+    "html-validate": "html-validate ./public/**/*.html",
+    "linkinator": "linkinator ./public/**/*.html --skip example.com --verbosity error"
+  },
+  "devDependencies": {
+    "html-validate": "^8.27.0",
+    "linkinator": "^6.1.2",
+    "sharp": "^0.33.5",
+    "ssi": "^0.3.0",
+    "stylelint": "^16.12.0",
+    "stylelint-config-standard": "^36.0.1"
+  }
+}

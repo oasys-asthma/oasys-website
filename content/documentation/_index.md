@@ -5,7 +5,7 @@ draft: false
 description: "Help pages and documentation for using the Oasys program"
 ---
 
-We hope that you find Oasys useful and easy to use. If you are having trouble please browse the help and or the website. Listed below are some common issues that new users of the program have. At the bottom of the page are links to other sections of the help.
+We hope that you find Oasys useful and easy to use. If you are having trouble please browse the website. Listed below are some common issues that new users of the program have. At the bottom of the page are links to other sections of the help.
 
 Oasys saves all personally identifiable information to your computer and all anonymous information to a database on this website. We aim to use this information to further the understanding of occupational asthma. The system complies with UK data protection law. If you want more information about this please see [Data protection in Oasys](/documentation/data-protection).
 

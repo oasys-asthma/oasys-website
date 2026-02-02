@@ -1,11 +1,12 @@
 # todo
 
-- [ ] help / documentation pages
+- [x] help / documentation pages
+- [ ] link checker, css linter, html linter
+- [ ] more styling
 - [ ] contact page
 - [ ] team page
 - [ ] download / install page
 - [ ] favicon
-- [ ] more styling
 - [ ] privacy policy
 - [ ] terms and conditions maybe
 - [ ] link to app store in footer probably / or link to download page
