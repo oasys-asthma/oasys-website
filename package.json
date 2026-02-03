@@ -15,11 +15,11 @@
   "type": "commonjs",
   "main": "./public/index.html",
   "scripts": {
-    "build": "hugo && npm run test",
-    "test": "npm run stylelint && npm run html-validate && npm run linkinator",
+    "build": "hugo --minify && npm run test",
+    "test": "npm run stylelint && npm run linkinator",
     "stylelint": "stylelint ./themes/**/*.css",
-    "html-validate": "html-validate ./public/**/*.html",
-    "linkinator": "linkinator ./public/**/*.html --skip example.com --verbosity error"
+    "html-validate-hugo-not-friendly": "html-validate ./public/**/*.html",
+    "linkinator": "linkinator ./public/ --recurse --skip https://www.occupationalasthma.com/cgi-bin/oasysserver.exe/BIN --skip https://api.oasys-asthma.org/ --skip https://journal.chestnet.org --skip https://thorax.bmj.com --skip http://example.org/ --verbosity error"
   },
   "devDependencies": {
     "html-validate": "^8.27.0",

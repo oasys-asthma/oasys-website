@@ -58,7 +58,7 @@ Each period at work can be given a particular exposure, which Oasys will analyse
 
 Whenever a "Start Work" event is entered it is automatically assigned the default exposure. If this is not applicable then click on the up and down arrows by the work exposure description (at the bottom left of the window) to select the correct one. You can also hold down the "Ctrl" key and press the up and down arrow keys to change the work exposure. Changing the work exposure can only be done having when youy are "inside" a work period. This exposure continues until the next "End Work" event. If a patient has two (or more) exposures in the same shift add an "End Work" to mark the end of one exposure and a "Start Work" to mark the start of the new exposure.
 
-Work exposures are added / modified / removed from the [patient demographics](/documemntation/patient-demographics).
+Work exposures are added / modified / removed from the [patient demographics](/documentation/patient-demographics).
 
 The screenshot earlier shows two different work exposures, one marked in blue and the other with orange. The first day is also orange but has been selected for copy / paste (see below) so is shown in a darker shade.
 

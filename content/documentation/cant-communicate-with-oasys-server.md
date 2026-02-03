@@ -24,7 +24,7 @@ In this case the solution is simple, and you need to reconnect to the internet!
 
 The Oasys program works fine with the standard Windows Firewall and N3, the NHS Network, but this is still probably the most common problem, especially in strict IT environments, which are common in healthcare settings, for obvious reasons.
 
-If you are asked to allow oautil.exe access in the firewall then please do so. If you still have problems then please talk to your IT department, and let them know they are welcome to get in touch with us via the [Contact](/contact/index) page to talk things through. 
+If you are asked to allow oautil.exe access in the firewall then please do so. If you still have problems then please talk to your IT department, and let them know they are welcome to get in touch with us via the [Contact](/contact) page to talk things through. 
 
 ### The "Url of the Oasys server" is incorrect
 
@@ -36,7 +36,7 @@ If the Url of the Oasys server changes we will email everybody who has used Oasy
 
 ### The Oasys server or database is having a problem
 
-This is a rare event, but can happen. You can try again in a few minutes. It is exceedingly rare for the server to be down for any serious length of time, so if you experience this for a long time please contact us via the [Contact](/contact/index) page to sort things out.
+This is a rare event, but can happen. You can try again in a few minutes. It is exceedingly rare for the server to be down for any serious length of time, so if you experience this for a long time please contact us via the [Contact](/contact) page to sort things out.
 
 ### What about saving my work?
 

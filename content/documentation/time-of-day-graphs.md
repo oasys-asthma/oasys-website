@@ -33,7 +33,7 @@ To make the night shift graph easier to view the  x axis starts at midday, runs 
 
 ### Average Hour for Rest and Work Exposures
 
-If you have entered multiple work exposures in the record  (defined in the [patient demographics](documentation/patient-demographics) and entered from the [data sheet](/documentation/data-sheet)) then Oasys will draw a graph for each work exposure that has enough data to make it worthwhile. This graph shows data for all rest readings and a particular work exposure only.
+If you have entered multiple work exposures in the record  (defined in the [patient demographics](/documentation/patient-demographics) and entered from the [data sheet](/documentation/data-sheet)) then Oasys will draw a graph for each work exposure that has enough data to make it worthwhile. This graph shows data for all rest readings and a particular work exposure only.
 
 On the graphs below there is no light grey shaded area. This tells us that the latest time of starting work and the earliest time of ending work overlap. The black vertical lines still give the mode time of starting and ending work. In the first graph below we can see that the earliest time of starting work is 3am and the latest time of ending work is 7pm (the same as the moéde).
 

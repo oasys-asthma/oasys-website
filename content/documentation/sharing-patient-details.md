@@ -15,4 +15,4 @@ We recommend that you place the patient details file on a network location that 
 
 If you already have a patient details file then you can copy it to this new location. If not just set the desired location in the options and Oasys will create the file the first time that it needs to use it.
 
-You can [export](documentation/exporting-patient-details) and [import patient details](documentation/importing-patient-details) if you need to combine patient details files (for example, if there is a merger, or a new starter uses their own patient details file before becoming aware of a shared one.)
+You can [export](/documentation/exporting-patient-details) and [import patient details](/documentation/importing-patient-details) if you need to combine patient details files (for example, if there is a merger, or a new starter uses their own patient details file before becoming aware of a shared one.)

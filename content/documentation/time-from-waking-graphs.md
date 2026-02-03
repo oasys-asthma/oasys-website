@@ -33,7 +33,7 @@ You might not expect to see many night shift readings shortly after waking, as p
 
 ### Average Hour for Rest and Work Exposures
 
-If you have entered multiple work exposures in the record  (defined in the [patient demographics](documentation/patient-demographics) and entered from the [data sheet](/documentation/data-sheet)) then Oasys will draw a graph for each work exposure that has enough data to make it worthwhile. This graph shows data for all rest readings and a particular work exposure only.
+If you have entered multiple work exposures in the record  (defined in the [patient demographics](/documentation/patient-demographics) and entered from the [data sheet](/documentation/data-sheet)) then Oasys will draw a graph for each work exposure that has enough data to make it worthwhile. This graph shows data for all rest readings and a particular work exposure only.
 
 The shaded areas show the earliest, mode and latest times of starting and ending work in the same way as the Day and Afternoon shift graphs. The first graph below has an earliest and mode time of starting work 1 hour after waking. The latest time of starting work is 9 hours after waking. The mode and earliest time of ending work is 14.5 hours after waking and the latest time of ending work is 19 hours after waking.
 

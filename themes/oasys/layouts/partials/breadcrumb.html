@@ -4,13 +4,13 @@
 {{ end }}
 
 {{ define "breadcrumbnav" }}
-    {{ with .Parent }}
-        {{ template "breadcrumbnav" . }}
-            {{ if .Parent }} - {{ end }}
-        {{ if .IsHome }}
-            <a href="{{ .Permalink }}">Home</a>
-            {{ else }}
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-        {{ end }}
-    {{ end }}
+{{ with .Parent }}
+{{ template "breadcrumbnav" . }}
+{{ if .Parent }} - {{ end }}
+{{ if .IsHome }}
+<a href="{{ .Permalink }}">Home</a>
+{{ else }}
+<a href="{{ .Permalink }}">{{ .Title }}</a>
+{{ end }}
+{{ end }}
 {{ end }}

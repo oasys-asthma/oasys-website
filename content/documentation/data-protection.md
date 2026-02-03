@@ -11,4 +11,4 @@ The system has been verified and is used by Heartlands Hospital (where a large p
 
 The Oasys Server stores anonymous data from all records analysed in Oasys on a database, hosted in Microsoft Azure. Oasys runs on each users computer and stores all the personally identifiable information locally.
 
-The Oasys server is a standard REST Api, IT departments and interested users can use [Fiddler](https://www.telerik.com/fiddler) to inspect the messages that Oasys sends it, to satisfy themselves that no personal details are sent. 
+The Oasys server is a standard REST Api, IT departments and interested users can use [Fiddler](https://www.telerik.com/fiddler) to inspect the messages that Oasys sends it, to satisfy themselves that no personal details are sent.

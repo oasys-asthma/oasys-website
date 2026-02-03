@@ -9,19 +9,19 @@ Oasys often shows a message, when something has gone wrong or to provide extra i
 
 The descriptions below give some extra information about some of these messages.
 
-If you have some new question which wasn't explained well here please get in touch via the [contact](/contact/index) page. We will update the descriptions when this happens.
+If you have some new question which wasn't explained well here please get in touch via the [contact](/contact) page. We will update the descriptions when this happens.
 
 ### The Oasys web server has been updated
 
 "The Oasys web server has been updated and will no longer work with this version of Oasys. Please download the latest version of oasys using the link below."
 
-If you receive this error then we have released a new version of the Oasys Server that your current version of Oasys cannot work with. Please [install the latest version of Oasys](/install/index).
+If you receive this error then we have released a new version of the Oasys Server that your current version of Oasys cannot work with. Please [install the latest version of Oasys](/install).
 
 There is no need to worry, none of your records or personal details will be lost. Apologies for the inconvenience, we will try to make breaking changes as rarely as possible.
 
 ### Unexpected error
 
-If this happens then there is a problem with Oasys or with the data, please contact us via the [Contact](/contact/index) page to sort things out.
+If this happens then there is a problem with Oasys or with the data, please contact us via the [Contact](/contact) page to sort things out.
 
 ### Could not open record
 
@@ -33,7 +33,7 @@ Our very sincere apologies for this. Unfortunately the company which host The Oa
 
 ### Could not save record
 
-If you can connect to the Oasys Server it should be possible to save any record. However there may be unforseen circumstances where this does not happen. The following error messages can be returned by the Oasys server. If one of these happens then there is a problem with Oasys or with the record, please contact us via the [Contact](/contact/index) page to sort things out.
+If you can connect to the Oasys Server it should be possible to save any record. However there may be unforseen circumstances where this does not happen. The following error messages can be returned by the Oasys server. If one of these happens then there is a problem with Oasys or with the record, please contact us via the [Contact](/contact) page to sort things out.
 
 - File caused an unknown error during opening. The error returned was: ...
 - Invalid XML: serialspirometryrecord node missing.
@@ -53,7 +53,7 @@ This message is returned when the Oasys client cannot save the patient details f
 
 #### Unusual problems
 
-The following errors can be returned in exceptional conditions. Your record has still been largely saved but some data may be missing. If one of these happens then there is a problem with Oasys or with the record, please contact us via the [Contact](/contact/index) page to sort things out.
+The following errors can be returned in exceptional conditions. Your record has still been largely saved but some data may be missing. If one of these happens then there is a problem with Oasys or with the record, please contact us via the [Contact](/contact) page to sort things out.
 
 Cannot convert Pef reading (...) for blow ...
 (and similar messages for FEV1, FEV3 etc)
