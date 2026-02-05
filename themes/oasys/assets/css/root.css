@@ -33,6 +33,7 @@
   --primary-very-light: #718CB6;
   --primary-lightest: #95ABD2;
 
+  /* remove these */
   --teal: #1f404e;
   --primary-0: #fa7a64;
   --primary-0-darker: #E04C30;
@@ -50,7 +51,7 @@
   --background-5: #1F404E;
   --foreground-5: var(--grayscale-white);
   --background-6: var(--primary-darkest);
-  --foreground-6: var(--grayscale-very-light-gray);
+  --foreground-6: var(--grayscale-off-white);
 
   --card-background-1: #F97957;
   --card-background-2: #feabd5;
@@ -384,8 +385,8 @@ body.form main {
 
     button {
       font: var(--font-body);
-      color: var(--grayscale-white);
-      background-color: var(--teal);
+      color: var(--grayscale-black);
+      background-color: var(--card-background-1);
       border-radius: var(--s4);
       padding-inline: var(--s3);
       padding-block: var(--s-2);

@@ -3,3 +3,8 @@ languageCode = 'en-uk'
 title = 'Oasys'
 theme = "Oasys"
 enableRobotsTXT = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

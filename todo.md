@@ -1,12 +1,14 @@
 # todo
 
 - [x] help / documentation pages
-- [ ] link checker, css linter, html linter
+- [x] link checker, css linter, html linter
+- [ ] contact page. have started this, need to sort out the css to work with the html
 - [ ] more styling
-- [ ] contact page
+ - [ ]  check all of the documentation pages, a lot of them look pretty bad at the moment
 - [ ] team page
 - [ ] download / install page
 - [ ] favicon
+- [ ] do something with home page 
 - [ ] privacy policy
 - [ ] terms and conditions maybe
 - [ ] link to app store in footer probably / or link to download page
@@ -15,6 +17,10 @@
 - [ ] Remove unused css
  - [ ] all the span stuff i think
  - [ ] ...
+- [ ] create oasys organisation on github and put the repo there
+- [ ] have some sort of ci, probably netlify
+- [ ] deploy to netlify with a weird url and send round to people
+- [ ] do new domain in azure if poss, and link to it
 
 ## Reference
 
