@@ -7,13 +7,17 @@ description: "Help pages and documentation for using the Oasys program"
 
 We hope that you find Oasys useful and easy to use. If you are having trouble please browse the website. Listed below are some common issues that new users of the program have. At the bottom of the page are links to other sections of the help.
 
-Oasys saves all personally identifiable information to your computer and all anonymous information to a database on this website. We aim to use this information to further the understanding of occupational asthma. The system complies with UK data protection law. If you want more information about this please see [Data protection in Oasys](/documentation/data-protection).
+Oasys saves all personally identifiable information to your computer and all anonymous information to a database in the cloud. We aim to use this information to further the understanding of occupational asthma. The system complies with UK data protection law. If you want more information about this please see [Data protection in Oasys](/documentation/data-protection).
+
+{{< middle-section-1 >}}
 
 ### The program wants me to Log In - what do I do?
 
 To use Oasys you must first [create an account](/documentation/sign-up). We will not disclose your email address to anyone else and will never send you marketing emails.
 
 If you have already registered with the website but have forgotten your password you can [reset your password](/documentation/reset-password)
+
+{{< /middle-section-1  >}}
 
 ### I have logged in, now what?
 
@@ -27,15 +31,21 @@ A new record will be created and you will be taken to the [data sheet](/document
 
 Click on "File - Save" every now and then to save the record.
 
+{{< middle-section-2 >}}
+
 ### I have finished entering the record, how do I see the report?
 
 Click on "View - Report". See the [Oasys report](/documentation/oasys-report) section to find out what everything means.
+
+{{< /middle-section-2 >}}
 
 ### Oasys has lost my login details - help!
 
 If you have not saved a file for a an hour or two Oasys will log you out for security reasons.
 
 If this happens simply click on "File - Log On to the Oasys Server" to log on and then try again.
+
+{{< middle-section-3 >}}
 
 ### How do I open records?
 
@@ -46,6 +56,8 @@ Click on "File - Open", a new window will appear. Click on "PID" to search by pa
 After searching Oasys will list all the matching records at the bottom of the window. Double clicking on one of these will open it. You can then click on "View - Data Sheet" to [add / modify data](/documentation/data-sheet) or "View - Report" to look at the [Oasys report](/documentation/oasys-report) on the record. You can select multiple records and then click "Open" to open more than one at a time.
 
 Some details from the current record (name, start date etc) are always displayed on the toolbar of the main screen. If you have more than one record open you can choose the one to look at by clicking on these details and choosing from the list.
+
+{{< /middle-section-3 >}}
 
 ### More Stuff
 

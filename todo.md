@@ -2,12 +2,24 @@
 
 - [x] help / documentation pages
 - [x] link checker, css linter, html linter
-- [ ] contact page. have started this, need to sort out the css to work with the html
+- [x] contact page
 - [ ] more styling
  - [ ]  check all of the documentation pages, a lot of them look pretty bad at the moment
+ - [ ] use shortcodes to make sections like in equipmii
+https://gohugo.io/templates/shortcode/#inner-content
+{{< contrived title="A Contrived Example" >}}
+This is a **bold** word, and this is an _emphasized_ word.
+{{< /contrived  >}}
+
+<div class="contrived">
+  <h2>{{ .Get "title" }}</h2>
+  {{ .Inner | .Page.RenderString }}
+</div>
+ - [ ] Match baseline of Oasys h1 in header and nav links
 - [ ] team page
-- [ ] download / install page
+- [ ] download / install page. link to microsoft store
 - [ ] favicon
+- [ ] add links to the cards on the home page
 - [ ] do something with home page 
 - [ ] privacy policy
 - [ ] terms and conditions maybe
