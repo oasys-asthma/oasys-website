@@ -17,6 +17,8 @@ The options default to adding no events, so you must set some of the options for
 
 Note that there is no undo function in Oasys yet so it is worth checking that everything looks right before adding the events.
 
+{{< middle-section-1 >}}
+
 ### General
 
 This tab has options for adding events when some of the events have already been entered. If you have not yet entered any events you can ignore these options.
@@ -29,6 +31,8 @@ If a patient works 9am - 5pm every day but takes a one week holiday during the r
 
 You can "Add Standard Event Times" more than once for complicated scenarios.
 
+{{< /middle-section-1 >}}
+
 ### Work Days
 
 Clicking on "Add work days to certain days of the week" allows you to tick which days Oasys should add Start Work and End Work events to.
@@ -37,9 +41,13 @@ Clicking on "Add work events in a pattern" is for patients that work a certain n
 
 If you have added multiple work exposures in the patient demographics you can specify which exposure Oasys should use when adding work events. Simply type in the name of the work exposure in the box at the bottom. If you wish to add more than one exposure you can "Add Standard Event Times" twice and use different options.
 
+{{< middle-section-2 >}}
+
 ### Wake Up
 
 Tick "Add Wake Events" to tell Oasys to add Wake Up events, at the time specified by the "At this time" box. If "Remove Existing Wake Events" is ticked any existing Wake Up events will be removed.
+
+{{< /middle-section-2 >}}
 
 ### Start Work
 
@@ -47,9 +55,13 @@ Tick "Add Start Work Events" to tell Oasys to add Start Work events, at the time
 
 If "Remove Existing Start Work Events" is ticked any existing Wake Up events will be removed.
 
+{{< middle-section-3 >}}
+
 ### End Work
 
 Tick "Add End Work Events" to tell Oasys to add End Work events, at the time specified by the "At this time" box. If "Remove Existing End Work Events" is ticked any existing End Work events will be removed.
+
+{{< /middle-section-3 >}}
 
 ### Go To Bed
 

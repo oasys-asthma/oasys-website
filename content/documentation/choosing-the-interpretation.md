@@ -17,11 +17,15 @@ Oasys allows you to remove parts of a record (for example, if the patient is ill
 
 Oasys does not actually delete the peak flow measurements, but instead "Marks" them. During the "Interpretation" these marked ranges are temporarily removed to do the analysis. If you would like to look at the results with these ranges included then make sure that this box is unticked. This can be useful to see how much effect the illness (in this example) is having on the results.
 
+{{< middle-section-1 >}}
+
 ### Pseudo Day Interpret
 
 Oasys uses [Pseudo Day Interpretation](/documentation/pseudo-day-interpretation) to pre process / group all readings into "Pseudo Days", where the peak flow measurements in a Pseudo Day are either all subjected to the work exposure, or all not subjected to the work exposure. Each Pseudo Day must also include a reading within 90 minutes of waking up, as this is usually the lowest reading of the day and can bias the results (although this value can be copied from nearby days). More details are available on the dedicated Pseudo Day Interpretation Page.
 
 We recommend the use of Pseudo Day Interpretation, where possible. However you can turn it off by unticking the "Pseudo Day Interpret" box.
+
+{{< /middle-section-1 >}}
 
 ### Work Exposures
 

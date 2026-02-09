@@ -13,6 +13,8 @@ The audit report is generated from all the patients and records in your patient 
 
 ![](/assets/images/oasys_audit_center_report_2011.jpg)
 
+{{< middle-section-1 >}}
+
 ### Record Details
 
 These details are entered as part of saving the Oasys records, no further data entry is required. The table below shows some of the data in this section with some comments.
@@ -27,9 +29,13 @@ The "Average number of rest days per record" averages the rest days across the r
 
 The "Optimal quality for at least one of the Oasys scores" counts records that are good quality for at least one of the automatic Oasys scores.	If this figure is low then you can think about ways to instruct your patients that lead to better outcomes.
 
+{{< /middle-section-1 >}}
+
 ### Common Workplaces
 
 This table shows a list of the workplaces for your new patients (in the auditing period) along with how many patients are at each workplace. High numbers of patients (this could be 2 for a small employer) with positive records is a good reason to investigate further. Only workplaces with at least 2 patients are shown
+
+{{< middle-section-2 >}}
 
 ### Demographics
 
@@ -38,6 +44,8 @@ The data in this section is entered from the Oasys Audit Patient Data window.
 The denominator for this data is the number of new patients that have anything other than "Not Sure" entered. So it only counts new patients for which you have entered any data.
 
 Smoking history, atopy and any previous asthma (when investigation for occupational asthma) are presented.
+
+{{< /middle-section-2 >}}
 
 ### Methods of Diagnosis
 

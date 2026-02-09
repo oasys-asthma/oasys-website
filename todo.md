@@ -5,17 +5,10 @@
 - [x] contact page
 - [ ] more styling
  - [ ]  check all of the documentation pages, a lot of them look pretty bad at the moment
- - [ ] use shortcodes to make sections like in equipmii
-https://gohugo.io/templates/shortcode/#inner-content
-{{< contrived title="A Contrived Example" >}}
-This is a **bold** word, and this is an _emphasized_ word.
-{{< /contrived  >}}
-
-<div class="contrived">
-  <h2>{{ .Get "title" }}</h2>
-  {{ .Inner | .Page.RenderString }}
-</div>
+  got to creating-a-new-record
+ - [x] use shortcodes to make sections like in equipmii
  - [ ] Match baseline of Oasys h1 in header and nav links
+- [ ] new imagae for oasys_audit_center_report_2011.jpg. Probably ask sam or vicky
 - [ ] team page
 - [ ] download / install page. link to microsoft store
 - [ ] favicon

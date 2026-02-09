@@ -11,8 +11,9 @@ Click on the "Conclusions" tab of the [Oasys report](/documentation/oasys-report
 
 This section shows the name, patient id, dates of the record, peak flow meter used, level of exposure, workplace, jobs, predicted peak flow, treatments and agents. Most of this is entered in the [patient demographics](/documentation/patient-demographics) window. It also shows the "Interpretation". We recommend [Pseudo Day Interpretation](/documentation/pseudo-day-interpretation) and it is the default, however it is not always possible, see the [Setting the interpretation as recommended](/documentation/setting-recommended-interpretation) page for more details.
 
-### Quality
+{{< middle-section-1 >}}
 
+### Quality
 
 This section starts off by stating whether the record is of optimal quality for Oasys and quotes the published specificity and sensitivity for the level of quality. Click to view the [paper that defines sensitivity and specificity for the different levels of quality](/assets/pdfs/eopefdqodsasioa.pdf).
 
@@ -28,17 +29,23 @@ The detecting of infections is not perfect, it should be used as a guide that so
 
 Oasys shows the number of reading outliers. These are readings outside of the 95% confidence interval for the record. These should all be checked if possible. If the record has been entered by hand it is possible that typing errors have been made. If the record has been downloaded from an electronic meter it is possible that friends and family of the patient "had a go" with the meter. Readings that are found to be wrong should be corrected or removed. Note that records will always have some perfectly valid readings outside of the confidence interval. This function just highlights readings that are worth checking. These readings are shown in bold on the [data sheet](/documentation/data-sheet) and can be removed from there. Once all readings have been checked click on "Check All" to indicate that you have done so. A new form will pop up allowing you to enter some comments.
 
+{{< /middle-section-1 >}}
+
 ### Diurnal Variation
 
 We don't think that diurnal variation is a very useful measure, but other people do so we have included it. The top line of this table shows whether the denominator for the diurnal variation is the predicted peak flow or the mean of all the readings in the record. The rows show the minimum, mean and maximum diurnal variation for each type of day. The table below shows higher diurnal variation on days at work.
 
 ![](/assets/images/oasys_diurnal_variation_table.gif)
 
+{{< middle-section-2 >}}
+
 ### Work Exposures
 
 If you have added multiple work exposures to the record then Oasys will add a table with some information about them. The mean of all peak flows for a particular exposures is subtracted from the mean of all peak flows on days off (we think this is the best measure to use when there is only a small amount of data to analyse). The higher the number the more likely that a particular exposure is causing a problem. The value is shown as a percentage of the predicted peak flow if it is available or in L/Min otherwise. A value of >3.3% of predicted or >15L/Min is indicative of occupational asthma, as long as there is enough data. The number of work days for each exposure is also shown so that you can make this judgement. If there are some exposures that do not seem to be causing any problem you should go to the [Interpretation Options](/documentation/choosing-the-interpretation) and untick these exposures. Oasys will reanalyse the record calling these rest days (they are not rest days, but they are unexposed days).
 
 The example below shows two exposures which both appear to be a problem, although there is not that much data for each. This would suggest that the patient is exposed to the same causative agent in both locations, which could provide a clue as to what the problem agent is.
+
+{{< /middle-section-2 >}}
 
 ![](/assets/images/oasys_work_exposure_table.gif)
 
