@@ -1,3 +1,4 @@
+{{- if .IsBlock -}}
 </div>
 </div>
 </section>
@@ -11,3 +12,9 @@
 <section class="text left background-0">
     <div>
         <div>
+            {{- else -}}
+            <img src="{{ .Destination | safeURL }}"
+                 {{- with .PlainText }} alt="{{ . }}" {{ end -}}
+                 {{- with .Title }} title="{{ . }}" {{ end -}}>
+            {{- /* chomp trailing newline */ -}}
+            {{- end -}}

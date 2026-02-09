@@ -21,9 +21,13 @@ If this is the first record for the patient then click on "This is the first rec
 
 If you choose an existing patient some information is automatically be copied into the new record. The name, id, date of birth, height and workplace will all be copied in from your patient details file. The jobs, causative agents, treatments, race, sex and level of exposure are copied from the previous record.
 
+{{< middle-section-1 >}}
+
 ### Warnings
 
 If you have chosen an existing patient Oasys may add some warnings for things you may want to check. For example if jobs have been added from a previous record it is a good idea to check that these are still the same. If there are no warnings the wizard will skip this step.
+
+{{< /middle-section-1 >}}
 
 ### Patient Demographics
 
