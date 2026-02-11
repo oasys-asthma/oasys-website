@@ -19,9 +19,13 @@ If you do not have any records open a new window will open showing all the patie
 
 ![](/assets/images/oasys_choose_patient_2010.gif)
 
+{{< middle-section-1 >}}
+
 ### Patient Details
 
 The patient details can be changed from the Audit form. They are not sent to or stored on the Oasys Server, and are only presented here for your convenience.
+
+{{< /middle-section-1 >}}
 
 ### Clinical Information
 
@@ -33,11 +37,15 @@ Any methacholine / histamine results at work or away from work (for at least a w
 
 We report the number of patients where the diagnosis of occupational asthma is more likely than not, so please fill this in if you can. If you wish to notify the patient to a regional scheme then please fill in the Region. We are encouraging this as the main method of notification to the Shield scheme in the West Midlands, UK. We have also made contact with ONAP (France) and will be sending them any relevant data. If you run another surveillance scheme please get in touch so that we can talk to you about it.
 
+{{< middle-section-2 >}}
+
 ### Audit Information
 
 The British Thoracic Society occupational asthma guidelines recommend collecting; a full occupational history; FEV1/FVC; Serial measurements of spirometry (Oasys Records) and Specific IgE tests to relevant occupational allergens). It also recommends giving the patient advice on employment and compensation.
 
 You can record at which visit these things were done for audit purposes.
+
+{{< /middle-section-2 >}}
 
 ### Workplace Information
 

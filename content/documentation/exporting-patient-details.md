@@ -5,14 +5,11 @@ draft: false
 description: "How to export patient details to share with others"
 ---
 
-The best way to share records with co workers is to share your patient details file (so that they can see and update the personally identifiable details for patients), and to assign them permissions. Please see the link below for more information.
-
-todo: add link to this
-Sharing / Transporting your Patient Details
+The best way to share records with co workers is to share your patient details file (so that they can see and update the personally identifiable details for patients), and to assign them permissions. Please see [sharing Patient Details](/documentation/sharing-patient-details) for more details.
 
 Sometimes you may wish to share records externallly, say by email, for example to get an opinion from a colleague in another hospital. In this case you can export a new patient details file which can then be emailed. You can choose to anonymise the details to preserve confidentiality.
 
-There are two ways to create a patient details file. This page is about exporting details for any / all of your records. The other method involves exporting details for records that you have open, please click on [exporting patient details for open records](/documentation/exporting-patient-details-open-files)for more information on this. 
+There are two ways to create a patient details file. This page is about exporting details for any / all of your records. The other method involves exporting details for records that you have open, please click on [exporting patient details for open records](/documentation/exporting-patient-details-open-files) for more information on this. 
 
 If the records that you want to export are not already open in Oasys then this method is quicker.
 

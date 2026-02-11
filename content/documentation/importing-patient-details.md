@@ -5,21 +5,23 @@ draft: false
 description: "How to import patient details from others"
 ---
 
-The best way to share records with co workers is to share your patient details file (so that they can see and update the personally identifiable details for patients), and to assign them permissions. Please see the link below for more information.
-
-todo: add link to this
-Sharing / Transporting your Patient Details
+The best way to share records with co workers is to share your patient details file (so that they can see and update the personally identifiable details for patients), and to assign them permissions. Please see [sharing Patient Details](/documentation/sharing-patient-details) for more details.
 
 Sometimes you may wish to share records externallly, say by email, for example to get an opinion from a colleague in another hospital. In this case you can export a new patient details file which can then be emailed. You can choose to anonymise the details to preserve confidentiality.
 
 To start click on "Tools - Import Patient Details" from the main menu. A new window will appear. A wizard will guide you through the steps involved, as described below.
 
+{{< middle-section-1 >}}
+
 ### Step 1 - Choose file to import
 
 Choose the name of the file to import and click "Next". 
 
+{{< /middle-section-1 >}}
+
 ![](/assets/images/oasys_import_patient_details_choose_file_2010.gif)
 
+{{< middle-section-2 >}}
 
 ### Step 2 - Record Conflicts
 
@@ -31,7 +33,11 @@ This step only checks if the record details are different, patient names are che
 
 Tick the records that you would like the importing file to overwrite and click "Next" to continue.
 
+{{< /middle-section-2 >}}
+
 ![](/assets/images/oasys_import_patient_details_record_conflicts_2010.gif)
+
+{{< middle-section-3 >}}
 
 ### Step 3 - Patient Conflicts
 
@@ -43,12 +49,18 @@ The patient ID, name, DOB, height, race and sex are replaced when importing.
 
 Tick the patients that you would like the importing file to overwrite and click "Next" to import the patient details file.
 
+{{< /middle-section-3 >}}
+
 ![](/assets/images/oasys_import_patient_details_patient_conflicts_2010.gif)
+
+{{< middle-section-1 >}}
 
 ### Results
 
 Once the importing has completed a summary of all the records and patients imported is displayed. Padlock symbols are shown if the record / patient is read only.
 
 Click "Finish" when done.
+
+{{< /middle-section-1 >}}
 
 ![](/assets/images/oasys_import_patient_details_2010.gif)

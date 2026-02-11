@@ -563,13 +563,14 @@ body {
       padding-inline: var(--page-inline-border);
       padding-block: var(--section-padding);
       overflow: hidden;
-      max-inline-size: 40em;
       margin: auto;
 
       >div {
-        max-inline-size: 35em;
         margin: auto;
-        container-type: inline-size;
+
+        >div {
+          min-inline-size: calc(min(var(--measure-big), calc(100vw - 2 * var(--page-inline-border))));
+        }
       }
     }
 
@@ -589,21 +590,6 @@ body {
       color: var(--foreground-6);
       background-color: var(--background-6);
       max-inline-size: unset;
-
-      h2,
-      p {
-        inline-size: fit-content;
-
-        @container (width < 40ch) {
-          margin-inline: auto;
-          text-align: center;
-        }
-      }
-
-      p {
-        padding-block-start: var(--s-2);
-      }
-
     }
 
     section.image-and-text {

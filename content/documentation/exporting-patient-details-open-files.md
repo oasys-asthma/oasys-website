@@ -5,10 +5,7 @@ draft: false
 description: "How to export patient details for open records to share with others"
 ---
 
-The best way to share records with co workers is to share your patient details file (so that they can see and update the personally identifiable details for patients), and to assign them permissions. Please see the link below for more information.
-
-todo: add link to this
-Sharing / Transporting your Patient Details
+The best way to share records with co workers is to share your patient details file (so that they can see and update the personally identifiable details for patients), and to assign them permissions. Please see [sharing Patient Details](/documentation/sharing-patient-details) for more details.
 
 Sometimes you may wish to share records externallly, say by email, for example to get an opinion from a colleague in another hospital. In this case you can export a new patient details file which can then be emailed. You can choose to anonymise the details to preserve confidentiality.
 
