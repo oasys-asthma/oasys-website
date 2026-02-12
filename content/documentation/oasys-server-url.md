@@ -5,11 +5,19 @@ draft: false
 description: "The Url of the Oasys server"
 ---
 
-The Url of the Oasys Server is:
+The Url of the Oasys Server is
 
-> https://api.oasys-asthma.org/
+{{< middle-section-1-raw >}}
 
-Please ensure that this value is entered into the "URL of the Oasys Server" box on the Options Window. To do this open Oasys, click "Cancel" on the login window that appears. Then click on "Edit" (on the main menu) and then "Options". The options window will open, the first page contains the "URL of the Oasys Server" box where you can type (or copy and paste) in the value above if it is not already there.
+https://api.oasys-asthma.org/
+
+{{< /middle-section-1-raw >}}
+
+Oasys comes pre installed with the correct value so you should not have to do anything. We do not plan on changing this often. If it does need to be changed, then we will let you know.
+
+Please ensure that this value is entered into the "URL of the Oasys Server" box on the Options Window.
+
+To do this you may need to click "Cancel" on the login window that appears when you open Oasys (as it won't be possible to login if the url is incorrect). Then click on "Edit" (on the main menu) and then "Options". The options window will open, the first page contains the "URL of the Oasys Server" box where you can type (or copy and paste) in the value above.
 
 If this value is incorrect Oasys will not be able to connect to the Oasys Server.
 
@@ -17,8 +25,8 @@ If this value is incorrect Oasys will not be able to connect to the Oasys Server
 
 The Url was originally:
 
-> https://www.occupationalasthma.com/cgi-bin/oasysserver.exe/BIN
+*{{< raw >}}https://www.occupationalasthma.com/cgi-bin/oasysserver.exe/BIN{{< /raw >}}*
 
-The Url changed on Jan 16 2024, after an upgrade to the security of the website (which now uses end to end encryption) to:
+The Url changed on Jan 16 2024, after an upgrade to the security of the website (to use end to end encryption) to:
 
-> https://www.occupationalasthma.com/cgi-bin/oasysserver.exe/BIN
+*{{< raw >}}https://www.occupationalasthma.com/cgi-bin/oasysserver.exe/BIN{{< /raw >}}*

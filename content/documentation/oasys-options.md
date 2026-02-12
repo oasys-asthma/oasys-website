@@ -9,23 +9,29 @@ To enter / view the options click on "Edit - Options". A new window will open wi
 
 ![](/assets/images/oasys_options_2010.gif)
 
+{{< middle-section-1 >}}
+
 ### Internet
 
 The "Patient Details File" contains the location of your patient details file. This defaults to "My Documents\oasyspatientdetails.opd". If you work alone and on the same computer then you do not need to change this.
 
-If you work with others then you need to share your patient details file with the team. If you work on many computers then you either need to have the patient details file where it can be accessed from all the computers or you need to carry it with you on an encrypted USB stick.
-
-See the section on [Sharing your patient details file](/documentation/sharing-patient-details) for more information.
+If you work with others then you need to share your patient details file with the team. See the section on [Sharing your patient details file](/documentation/sharing-patient-details) for more information.
 
 You can enter a new location for your patient details file here or click on the "..." button to browse.
 
-The Oasys client also needs to know where to find the Oasys Server. Please see [URL of the Oasys Server](/documentation/oasys-server-url) to find out what this should be. Oasys comes pre installed with the correct value so you should not have to do anything. We do not plan on changing this often / at all. If it does need to be changed for some reason then we will let you know.
+The Oasys client also needs to know where to find the Oasys Server. Please see [URL of the Oasys Server](/documentation/oasys-server-url) to find out what this should be. 
+
+Oasys comes pre installed with the correct value so you should not have to do anything. We do not plan on changing this often. If it does need to be changed for some reason then we will let you know.
+
+{{< /middle-section-1 >}}
 
 ### Printing
 
 If you print the report and the pages come out in the wrong order then tick the "Print in reverse order" box and everything should work out.
 
 If you are having trouble printing click on "High Compatibility Printing". This stops Oasys using some of the fancier features that most modern printers have so should work better with older printers.
+
+{{< middle-section-2 >}}
 
 ### Analysis
 
@@ -34,6 +40,8 @@ The options in this section are generally not very interesting to new users so f
 The [daily graph](/documentation/daily-graph) of the [Oasys report](/documentation/oasys-report) shows the Oasys scores for each complex (these are the horizontal lines near the top with a number between 1 and 4 in the middle). These can be shown / hidden by clicking "Hide complex scores on the Daily PEF Graph".
 
 The [Mean 2-Hourly Time OF Day](/documentation/time-of-day-graphs) and [Time From Waking graphs](/documentation/time-from-waking-graphs) of the [Oasys report](/documentation/oasys-report) show the 95% standard error of the mean for each point. If you find this distracting it can be shown / hidden by clicking on "Hide Error Bars on Hourly Graphs".
+
+{{< /middle-section-2 >}}
 
 ### Serial Plot
 

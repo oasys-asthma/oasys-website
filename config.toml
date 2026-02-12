@@ -10,3 +10,5 @@ enableRobotsTXT = true
       unsafe = true
     [markup.goldmark.parser]
       wrapStandAloneImageWithinParagraph = false
+    [markup.goldmark.extension]
+      linkify = false

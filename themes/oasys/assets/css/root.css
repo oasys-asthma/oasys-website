@@ -564,6 +564,7 @@ body {
       padding-block: var(--section-padding);
       overflow: hidden;
       margin: auto;
+      inline-size: fit-content;
 
       >div {
         margin: auto;
@@ -589,7 +590,8 @@ body {
     section.page-header {
       color: var(--foreground-6);
       background-color: var(--background-6);
-      max-inline-size: unset;
+      max-inline-size: 100%;
+      inline-size: 100%;
     }
 
     section.image-and-text {
@@ -1137,7 +1139,7 @@ body {
 
       div {
         border-radius: var(--s0);
-        padding-inline: var(--s-1);
+        /* padding-inline: var(--s-1); */
         max-inline-size: var(--measure-big);
         display: flex;
         flex-direction: column;

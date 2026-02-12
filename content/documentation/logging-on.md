@@ -9,10 +9,8 @@ When you first start Oasys a window will pop up asking you to log on.
 
 ![](/assets/images/oasys_login_2010.gif)
 
-In order to use Oasys you will need to register.
+If you are already registered with this website then simply type in your details and click on "Login".
 
-If you are not yet registered then please [sign up](/documentation/sign-up) and enter your details.
+[Sign up](/documentation/sign-up) and enter your details if you don't have an account yet.
 
-If you are already registered with this website then simply type in your details click on "Login".
-
-If you have forgotten your password then you can [reset it](/documentation/reset-password).
+You can [reset yor password](/documentation/reset-password) if you have forgotten it.
