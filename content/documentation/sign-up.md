@@ -9,10 +9,14 @@ In order to create an account click on "File - Sign up on Oasys server". A new w
 
 ![](/assets/images/oasys_register_2026.png)
 
+{{< middle-section-1 >}}
+
 Type in your name, email address and password.
 
 The text on the right is grey when there is a problem (for example that the password isn't long enough), and turns green when everything is ok.
 
 To finish, click on "Register".
 
-Oasys will then send you an confirmation email. Please click on the link in the email, and then you will be able to log in.
+{{< /middle-section-1 >}}
+
+Oasys will then send you a confirmation email. Please click on the link in the email, and then you will be able to log in.

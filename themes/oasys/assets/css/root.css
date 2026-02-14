@@ -546,6 +546,27 @@ body>header {
 
 /* Shared 
 ------------------------------------------------- */
+blockquote {
+  font-style: italic;
+
+  &::before,
+  &::after {
+    content: none
+  }
+
+  p {
+    margin-inline: var(--s0);
+  }
+
+  p:first-of-type:before {
+    content: open-quote;
+  }
+
+  p:last-of-type:after {
+    content: close-quote;
+  }
+}
+
 body {
   background-color: white;
   font: var(--font-body);
@@ -831,6 +852,7 @@ body {
       flex-direction: column;
       row-gap: var(--section-padding);
       align-items: center;
+      max-inline-size: var(--measure-big);
 
       h3 {
         text-align: center;
@@ -1326,7 +1348,11 @@ h2 {
 
   a {
     text-decoration: underline;
-    text-decoration-color: var(--primary-light);
+    text-decoration-color: var(--primary-very-dark);
+  }
+
+  blockquote p {
+    color: var(--primary-very-dark);
   }
 }
 
@@ -1390,18 +1416,6 @@ a.button {
   outline-width: var(--s-8);
   outline-offset: calc(-1 * var(--s-6));
   outline-color: currentcolor;
-}
-
-blockquote {
-  &::before {
-    content: open-quote;
-  }
-
-  &::after {
-    content: close-quote;
-  }
-
-  font-style: italic;
 }
 
 @media screen and (prefers-reduced-motion: reduce) {

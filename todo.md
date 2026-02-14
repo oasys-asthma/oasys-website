@@ -4,14 +4,12 @@
 - [x] link checker, css linter, html linter
 - [x] contact page
 - [ ] more styling
- - [ ]  check all of the documentation pages, a lot of them look pretty bad at the moment
+ - [x]  check all of the documentation pages, a lot of them look pretty bad at the moment
   got to number-preference
  - [x] use shortcodes to make sections like in equipmii
  - [ ] maybe add shortcodes for FEV1 or something to subscript the 1. not sure if thats how it looks though
- - [ ] Maybe add shortcodes for things in quotes, and then style them a bit differently. Might break up long bits of text
+ - [x] Maybe add shortcodes for things in quotes, and then style them a bit differently. Might break up long bits of text
  - [ ] Match baseline of Oasys h1 in header and nav links
-- [ ] new imagae for oasys_audit_center_report_2011.jpg. Probably ask sam or vicky
-- [ ] team page
 - [ ] download / install page. link to microsoft store
 - [ ] favicon
 - [ ] add links to the cards on the home page
@@ -19,8 +17,11 @@
 - [ ] privacy policy
 - [ ] terms and conditions maybe
 - [ ] link to app store in footer probably / or link to download page
+- [ ] references
 - [ ] add an oasys linkedin page, and use the link
 - [ ] Accesibility, put the axe tools on it
+- [ ] new imagae for oasys_audit_center_report_2011.jpg. Probably ask sam or vicky
+- [ ] team page
 - [ ] Remove unused css
  - [ ] all the span stuff i think
  - [ ] ...
