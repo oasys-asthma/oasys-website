@@ -436,23 +436,18 @@ body>footer {
     }
   }
 
-  nav section:first-child div {
+  nav section div {
     display: flex;
     flex-direction: column;
     gap: var(--s-1);
-
-    img {
-      height: var(--s1);
-      inline-size: auto;
-    }
 
     small {
       font: var(--font-body-small);
     }
   }
 
-  nav section p:has(+ul) {
-    margin-bottom: var(--s0);
+  nav section p {
+    /* margin-bottom: var(--s0); */
     font: var(--font-body-bold);
   }
 
@@ -463,7 +458,7 @@ body>footer {
     gap: var(--s-2);
   }
 
-  nav section:nth-child(3) li {
+  nav section li {
     display: flex;
     flex-direction: row;
     gap: var(--s0);
@@ -860,6 +855,7 @@ body {
 
       img {
         max-inline-size: 100%;
+        inline-size: 100%;
       }
     }
   }
