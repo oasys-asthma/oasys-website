@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+{{- partial "head.html" . -}}
+
+<body class="team">
+    {{- partial "header.html" . -}}
+    <main>
+        <section class="page-header end-of-chunk text left">
+            <div>
+                <div>
+                    <h2>A passionate team</h2>
+                    <p>
+                        We are an independent group of clinicians and researchers, and run a clinical service for workers with occupational lung disease as part of the British National Health Service. We have developed the Oasys program to help ourselves and others in the diagnosis of occupational asthma.
+                    </p>
+                    {{ partial "breadcrumb.html" . }}
+                </div>
+            </div>
+        </section>
+
+        <section class="team">
+            {{- block "main" . }}{{- end }}
+        </section>
+
+    </main> {{- partial "footer.html" . -}}
+    {{- partial "script.html" . -}}
+</body>
+
+</html>

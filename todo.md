@@ -1,29 +1,40 @@
 # todo
 
- - [ ] maybe add shortcodes for FEV1 or something to subscript the 1. not sure if thats how it looks though
+pics
+ - loading lazy
+ - width, height
+ - something like this, but with different sizes https://laurakalbag.com/processing-responsive-images-with-hugo/
 Homepage
 - [ ] do something with home page 
  - [ ] add links to the cards on the home page
 Header
+- [ ] add links to download, team, and references
 - [ ] ?Match baseline of Oasys h1 in header and nav links
 - [ ] references
 - [ ] download / install page. link to microsoft store
 Footer
-- [ ] privacy policy
-- [ ] terms and conditions maybe
-- [ ] link to app store in footer probably / or link to download page
-- [x] add an oasys linkedin page, and use the link
-- [ ] ?github link - need to put it in different column
+- [?] privacy policy
+- [?] terms and conditions maybe
 Misc
+- [ ] references page
+ - add some details about the oasys references, probably a shortcode for a reference makes sense.
+ - https://www.occupationalasthma.com/oasysreferences.aspx
+- [-] team page
+ gareth, chris huntley, vicky, cedd, sherwood, charles pantin, alastair robertson
+  - add rest of people
+  - get images from people and add these
+  - maybe use secondary color for the circles, like the other pages
+  - use webp or whatever the best one is for photos
+- [ ] have some sort of ci, probably netlify
+- [ ] deploy to netlify with a weird url and send round to people
+
+- [ ] do new domain in azure if poss, and link to it
+- [ ] maybe add shortcodes for FEV1 or something to subscript the 1. not sure if thats how it looks though
 - [ ] Accesibility, put the axe tools on it
 - [ ] new image for oasys_audit_center_report_2011.jpg. Probably ask sam or vicky
-- [ ] team page
 - [ ] Remove unused css
  - [ ] all the span stuff i think
  - [ ] ...
-- [ ] have some sort of ci, probably netlify
-- [ ] deploy to netlify with a weird url and send round to people
-- [ ] do new domain in azure if poss, and link to it
 
 ## Reference
 

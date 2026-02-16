@@ -1,0 +1,39 @@
+{{ $src := resources.Get ( .Get "src" ) }}
+{{ $name := .Get "name" }}
+{{ $bio := .Get "bio" }}
+
+{{/* set image sizes, these are hardcoded for now, x dictates that images are resized to this width */}}
+{{ $tinyw := default "150x" }}
+{{ $smallw := default "300x" }}
+{{ $mediumw := default "4500x" }}
+{{ $largew := default "600x" }}
+
+{{/* resize the src image to the given sizes */}}
+{{ .Scratch.Set "tiny" ($src.Resize $tinyw) }}
+{{ .Scratch.Set "small" ($src.Resize $smallw) }}
+{{ .Scratch.Set "medium" ($src.Resize $mediumw) }}
+{{ .Scratch.Set "large" ($src.Resize $largew) }}
+
+{{/* add the processed images to the scratch */}}
+{{ $tiny := .Scratch.Get "tiny" }}
+{{ $small := .Scratch.Get "small" }}
+{{ $medium := .Scratch.Get "medium" }}
+{{ $large := .Scratch.Get "large" }}
+
+{{/* only use images smaller than or equal to the src (original) image size, as Hugo will upscale small images */}}
+{{/* set the sizes attribute to (min-width: 35em) 1200px, 100vw unless overridden in shortcode */}}
+{{ $imgSrc := cond (.Get (print $medium)) $medium.RelPermalink $src.RelPermalink }}
+
+<figure>
+    <div>
+        <img
+             sizes="calc(clamp(1rem, min(2.5vh, 1.6vw), 2.5rem) * 10.83)"
+             srcset="{{ with $tiny.RelPermalink }}{{.}} 150w{{ end }} {{ with $small.RelPermalink }}{{.}} 300w{{ end }} {{ with $medium.RelPermalink }}{{.}} 450w{{ end }} {{ with $large.RelPermalink }}{{.}} 600w{{ end }}"
+             src="{{ $imgSrc }}"
+             alt="">
+    </div>
+    <figcaption>
+        <h3>{{ $name }}</h3>
+        <p>{{ $bio }}</p>
+    </figcaption>
+</figure>
