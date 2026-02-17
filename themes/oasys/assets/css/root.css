@@ -207,20 +207,6 @@ body.team main {
 
       max-inline-size: unset;
 
-      /* figure:nth-child(even) {
-                @container (width > 25em) {
-                    margin-block-end: calc(0.5* var(--team-image-size));
-
-                    div {
-                        top: calc(0.5 * var(--team-image-size));
-                    }
-
-                    figcaption {
-                        top: calc(0.5 * var(--team-image-size));
-                    }
-                }
-            } */
-
       figure {
         display: flex;
         flex-direction: column;
@@ -231,7 +217,7 @@ body.team main {
           block-size: var(--team-image-size);
           position: relative;
           border-radius: var(--team-image-size);
-          background-color: var(--primary);
+          background-color: var(--secondary);
           flex-shrink: 0;
           flex-grow: 0;
         }
