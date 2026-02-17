@@ -22,14 +22,24 @@
 {{ $large := .Scratch.Get "large" }}
 
 {{/* only use images smaller than or equal to the src (original) image size, as Hugo will upscale small images */}}
-{{/* set the sizes attribute to (min-width: 35em) 1200px, 100vw unless overridden in shortcode */}}
 {{ $imgSrc := cond (.Get (print $medium)) $medium.RelPermalink $src.RelPermalink }}
-
 <figure>
     <div>
         <img
              sizes="calc(clamp(1rem, min(2.5vh, 1.6vw), 2.5rem) * 10.83)"
-             srcset="{{ with $tiny.RelPermalink }}{{.}} 150w,{{ end }} {{ with $small.RelPermalink }}{{.}} 300w,{{ end }} {{ with $medium.RelPermalink }}{{.}} 450w,{{ end }} {{ with $large.RelPermalink }}{{.}} 600w{{ end }}"
+             srcset='
+  {{ if ge $original.Width "150" }}
+    {{ with $tiny.RelPermalink }}{{.}} 150w{{ end }}
+  {{ end }}
+  {{ if ge $original.Width "300" }}
+    {{ with $small.RelPermalink }}, {{.}} 300w{{ end }}
+  {{ end }}
+  {{ if ge $original.Width "450" }}
+    {{ with $medium.RelPermalink }}, {{.}} 450w{{ end }}
+  {{ end }}
+  {{ if ge $original.Width "600" }}
+    {{ with $large.RelPermalink }}, {{.}} 600w {{ end }}
+  {{ end }}'
              src="{{ $imgSrc }}"
              alt="">
     </div>

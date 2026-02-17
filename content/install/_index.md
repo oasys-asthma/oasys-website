@@ -9,7 +9,7 @@ Download Oasys to start plotting peak flow records and diagnosing occupational a
 
 Requires Windows 10 or newer.
 
-[![Download Oasys from the microsoft store](/assets/images/microsoft-store.svg)](https://apps.microsoft.com/store/detail/9P0M7B507BJ9?cid=DevShareMCLPCS)
+[![Download Oasys from the microsoft store](images/microsoft-store.png)](https://apps.microsoft.com/store/detail/9P0M7B507BJ9?cid=DevShareMCLPCS)
 
 If your IT department restricts access to the Microsoft store please ask them to create an exception for Oasys.
 

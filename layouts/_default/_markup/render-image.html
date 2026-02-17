@@ -1,29 +1,50 @@
-{{- if .IsBlock -}}
+{{ $plainText := .PlainText }}
+{{ $title := .Title }}
 {{ $original := resources.Get .Destination }}
-{{ $url := .Destination }}
-{{ with try ($original.Process "webp") }}
-{{ with .Value }}
-{{ $url = .RelPermalink }}
-{{ end }}
-{{ end }}
+
+{{- if .IsBlock -}}
 </div>
 </div>
 </section>
 <section class="image background-0">
     <div>
-        <img src="{{ $url }}"
-             {{- with .PlainText }} alt="{{ . }}" {{ end -}}
-             {{- with .Title }} title="{{ . }}" {{ end -}}>
-        <!-- <img src="{{ .Destination | safeURL }}"
-             {{- with .PlainText }} alt="{{ . }}" {{ end -}}
-             {{- with .Title }} title="{{ . }}" {{ end -}}> -->
+        {{ with try ($original.Process "webp") }}
+        {{ with .Value }}
+        {{ $tiny := .Resize "400x" }}
+        {{ $small := .Resize "800x" }}
+        {{ $medium := .Resize "1200x" }}
+        {{ $large := .Resize "1600x" }}
+
+        <img
+             loading="lazy"
+             src="{{ .RelPermalink }}"
+             sizes="min(65ch, 100vw)"
+             srcset='{{ .RelPermalink }} {{ .Width}}w {{ if ge .Width "400" }}
+    , {{ with $tiny.RelPermalink }}{{.}} 400w{{ end }}
+  {{ end }}
+  {{ if ge .Width "800" }}
+    , {{ with $small.RelPermalink }} {{.}} 800w{{ end }}
+  {{ end }}
+  {{ if ge .Width "1200" }}
+    , {{ with $medium.RelPermalink }} {{.}} 1200w{{ end }}
+  {{ end }}
+  {{ if ge .Width "1600" }}
+    , {{ with $large.RelPermalink }} {{.}} 1600w {{ end }}
+  {{ end }}' {{- with $plainText }} alt=" {{ . }}" {{ end -}}
+             {{- with $title }} title="{{ . }}" {{ end -}}>
+        {{ else }}
+        <img src="/assets{{ $original.RelPermalink | safeURL }}"
+             {{- with $plainText }} alt="{{ . }}" {{ end -}}
+             {{- with $title }} title="{{ . }}" {{ end -}}>
+        {{ end }}
+        {{ end }}
     </div>
 </section>
 <section class="text left background-0">
     <div>
         <div>
             {{- else -}}
-            <img src="{{ .Destination | safeURL }}"
+            <img src="{{ $original.RelPermalink | safeURL }}"
                  {{- with .PlainText }} alt="{{ . }}" {{ end -}}
                  {{- with .Title }} title="{{ . }}" {{ end -}}>
             {{- /* chomp trailing newline */ -}}

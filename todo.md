@@ -1,9 +1,7 @@
 # todo
 
 pics
- - loading lazy
- - width, height
- - something like this, but with different sizes https://laurakalbag.com/processing-responsive-images-with-hugo/
+- fix inline images
 Homepage
 - [ ] do something with home page 
  - [ ] add links to the cards on the home page
