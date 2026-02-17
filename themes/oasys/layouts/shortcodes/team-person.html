@@ -1,11 +1,12 @@
-{{ $src := resources.Get ( .Get "src" ) }}
+{{ $original := resources.Get ( .Get "src" ) }}
+{{ $src := $original.Process "webp" }}
 {{ $name := .Get "name" }}
 {{ $bio := .Get "bio" }}
 
 {{/* set image sizes, these are hardcoded for now, x dictates that images are resized to this width */}}
 {{ $tinyw := default "150x" }}
 {{ $smallw := default "300x" }}
-{{ $mediumw := default "4500x" }}
+{{ $mediumw := default "450x" }}
 {{ $largew := default "600x" }}
 
 {{/* resize the src image to the given sizes */}}
@@ -28,7 +29,7 @@
     <div>
         <img
              sizes="calc(clamp(1rem, min(2.5vh, 1.6vw), 2.5rem) * 10.83)"
-             srcset="{{ with $tiny.RelPermalink }}{{.}} 150w{{ end }} {{ with $small.RelPermalink }}{{.}} 300w{{ end }} {{ with $medium.RelPermalink }}{{.}} 450w{{ end }} {{ with $large.RelPermalink }}{{.}} 600w{{ end }}"
+             srcset="{{ with $tiny.RelPermalink }}{{.}} 150w,{{ end }} {{ with $small.RelPermalink }}{{.}} 300w,{{ end }} {{ with $medium.RelPermalink }}{{.}} 450w,{{ end }} {{ with $large.RelPermalink }}{{.}} 600w{{ end }}"
              src="{{ $imgSrc }}"
              alt="">
     </div>
