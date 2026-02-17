@@ -15,16 +15,12 @@ Header
 Footer
 - [?] privacy policy
 - [?] terms and conditions maybe
+References page
+ - [ ] add some details about the oasys references, probably a shortcode for a reference makes sense.
+  - https://www.occupationalasthma.com/oasysreferences.aspx
+Team page
+  - [ ] get images from people and add these
 Misc
-- [ ] references page
- - add some details about the oasys references, probably a shortcode for a reference makes sense.
- - https://www.occupationalasthma.com/oasysreferences.aspx
-- [-] team page
- gareth, chris huntley, vicky, cedd, sherwood, charles pantin, alastair robertson
-  - add rest of people
-  - get images from people and add these
-  - maybe use secondary color for the circles, like the other pages
-  - use webp or whatever the best one is for photos
 - [ ] have some sort of ci, probably netlify
 - [ ] deploy to netlify with a weird url and send round to people
 

@@ -7,7 +7,7 @@ description: "Editing patient audit data in Oasys"
 
 To enter / view the clinical and audit data for a patient click on "View - Oasys Audit Patient Data". If you already have a record open a new window will open with a list of tabs across the top for the various sections for the current patient.
 
-![](/assets/images/oasys_patient_audit_data.gif)
+![](images/oasys_patient_audit_data.gif)
 
 We are entering this data for all patients that we investigate for occupational asthma. The Oasys Audit Patient Report goes in the first page of the patient's notes and whenever the patient comes in to clinic the printout is updated with any new information. This paper copy is then entered into Oasys by the administrative staff and an updated report printed out for the notes.
 
@@ -17,7 +17,7 @@ We will soon be adding a summary audit report tool to Oasys for you to use. This
 
 If you do not have any records open a new window will open showing all the patients from your patient details file (shown below). Simply double click on a patient (or single click on the patient and then click "View Details")  to see the details for that patient. You can also add a patient by clicking on the "New Patient" button. If you start typing a patient name or ID Oasys will go to the next matching patient.
 
-![](/assets/images/oasys_choose_patient_2010.gif)
+![](images/oasys_choose_patient_2010.gif)
 
 {{< middle-section-1 >}}
 

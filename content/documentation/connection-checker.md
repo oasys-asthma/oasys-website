@@ -13,7 +13,7 @@ Oasys has a "Connection Checker" that can help with connection problems.
 
 To open the connection checker - click on "Tools - Connection Checker" from the main menu.
 
-![](/assets/images/oasys_server_connection_checker_2026.png)
+![](images/oasys_server_connection_checker_2026.png)
 
 It will attempt to connect to the internet (to check that you have internet access), then attempt to connect to the Oasys website (to check that the Oasys website is working) and the to send a message to the Oasys Server (mainly to check firewall settings).
 

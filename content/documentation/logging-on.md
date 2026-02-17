@@ -7,7 +7,7 @@ description: "How to log on to Oasys"
 
 When you first start Oasys a window will pop up asking you to log on.
 
-![](/assets/images/oasys_login_2010.gif)
+![](images/oasys_login_2010.gif)
 
 If you are already registered with this website then simply type in your details and click on "Login".
 

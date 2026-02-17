@@ -7,7 +7,7 @@ description: "Adding opinions in the Oasys report"
 
 Opinions are added by clicking the "Add Opinion" button, underneath the Daily Graph section of the Oasys Report. To open the report click "View - Report". To see the button you may need to scroll down below the graph. We attach the most importance to the Daily graph when analysing a record and this is why the Add Opinion button is here.
 
-![](/assets/images/oasys_add_opinion_2010.gif)
+![](images/oasys_add_opinion_2010.gif)
 
 Once you have clicked "Add Opinion" a new window will open with some options, as shown below. Please enter your name (this will be entered automatically if you have put it in before). Please enter your score from the following options:
 
@@ -22,4 +22,4 @@ Please also enter some optional text in the "Opinion" box to support the score.
 
 Opinions are shown under the "Add Opinion" button on the "Daily" section of the Oasys report (example below). To edit or delete opinions click on the "Edit" or "Delete" buttons to the right of each opinion (also on the example below).
 
-![](/assets/images/oasys_daily_graph_opinion_2010.gif)
+![](images/oasys_daily_graph_opinion_2010.gif)

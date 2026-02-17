@@ -11,7 +11,7 @@ Any auditing period can be chosen, Oasys defaults to showing you the previous fu
 
 The audit report is generated from all the patients and records in your patient details file (which can be shared by multiple employees in an organisation).
 
-![](/assets/images/oasys_audit_center_report_2011.jpg)
+![](images/oasys_audit_center_report_2011.jpg)
 
 {{< middle-section-1 >}}
 

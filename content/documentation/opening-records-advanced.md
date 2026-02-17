@@ -7,7 +7,7 @@ description: "Exploring more powerful options to open records in Oasys"
 
 The "Opening Records" window defaults to opening in "Simple" mode, where it shows all your records in a long list and you can just click on the record that you want to open. If you work with a large number of records this list can become a bit cumbersome, in this case, click on the "Advanced" button and the window will convert into advanced mode. In this mode you can search for records using the methods below. 
 
-![](/assets/images/oasys_open_from_internet_2010.gif)
+![](images/oasys_open_from_internet_2010.gif)
 
 ### Searching for records
 

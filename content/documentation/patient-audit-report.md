@@ -7,7 +7,7 @@ description: "The Oasys patient audit report"
 
 To view the audit report for a patient click on "View - Oasys Audit Patient Report".  If you already have a record open a new window will open showing the report, otherwise choose a patient from the list to see a report. 
 
-![](/assets/images/oasys_patient_audit_report_2010.gif)
+![](images/oasys_patient_audit_report_2010.gif)
 
 The audit report shows the summary of the investigations / diagnosis for a patient who is being investigated for occupational asthma. Missing information is highlighted in blue so that it is easily spotted and updated.
 

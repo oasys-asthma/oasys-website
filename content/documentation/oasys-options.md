@@ -7,7 +7,7 @@ description: "Oasys options"
 
 To enter / view the options click on "Edit - Options". A new window will open with a list of tabs across the top for the various sections.
 
-![](/assets/images/oasys_options_2010.gif)
+![](images/oasys_options_2010.gif)
 
 {{< middle-section-1 >}}
 

@@ -7,7 +7,7 @@ description: "The shift trend graphs in Oasys"
 
 Click on the "Shift Trends" tab of the [Oasys report](/documentation/oasys-report) to access mean peak flow by day of period graphs.
 
-![](/assets/images/oasys_shift_trends_2010.gif)
+![](images/oasys_shift_trends_2010.gif)
 
 The x axis of the graphs is slightly complicated. The first bar shows the mean of all peak flow readings taken on the first day away from work (generally on Saturdays if a patient is working a standard Monday to Friday pattern). This is shown in light grey. 
 

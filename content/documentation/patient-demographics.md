@@ -7,7 +7,7 @@ description: "Editing patient demographics in Oasys"
 
 To enter / view the patient demographics click on "View - Patient Demographics". A new window will open with a list of tabs across the top for the various sections.
 
-![](/assets/images/oasys_patient_demographics_2010.gif)
+![](images/oasys_patient_demographics_2010.gif)
 
 {{< middle-section-1 >}}
 

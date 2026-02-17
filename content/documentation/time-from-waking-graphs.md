@@ -41,13 +41,13 @@ This graph shows data for all rest readings and all work readings, irrespective 
 
 {{< /middle-section-3 >}}
 
-![](/assets/images/oasys_hourly_timefromwaking_work_2010.gif)
+![](images/oasys_hourly_timefromwaking_work_2010.gif)
 
 ### Average Hour from Waking for Rest and Day (or Afternoon) Shift Days
 
 This graph shows data for all rest readings and Day Shift (or Afternoon Shift) readings only. The two horizontal black lines at the edge of the grey area indicate the mode times of starting and ending work. Any darker grey areas (none on this graph) show the earliest and latest time of starting and ending work. The fact that there are no darker grey areas tells us that the patient starts and ends work the same amount of time after waking every day during the record (when working a day shift). The night shift graph later demonstrates a variable end of work time.
  
-![](/assets/images/oasys_hourly_timefromwaking_day_2010.gif)
+![](images/oasys_hourly_timefromwaking_day_2010.gif)
 
 {{< middle-section-1 >}}
 
@@ -59,7 +59,7 @@ You might not expect to see many night shift readings shortly after waking, as p
 
 {{< /middle-section-1 >}}
 
-![](/assets/images/oasys_hourly_timefromwaking_night_2010.gif)
+![](images/oasys_hourly_timefromwaking_night_2010.gif)
 
 ### Average Hour for Rest and Work Exposures
 
@@ -67,4 +67,4 @@ If you have entered multiple work exposures in the record  (defined in the [pati
 
 The shaded areas show the earliest, mode and latest times of starting and ending work in the same way as the Day and Afternoon shift graphs. The first graph below has an earliest and mode time of starting work 1 hour after waking. The latest time of starting work is 9 hours after waking. The mode and earliest time of ending work is 14.5 hours after waking and the latest time of ending work is 19 hours after waking.
 
-![](/assets/images/oasys_hourly_timefromwaking_exposure_2010.gif)
+![](images/oasys_hourly_timefromwaking_exposure_2010.gif)

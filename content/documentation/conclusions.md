@@ -35,7 +35,7 @@ Oasys shows the number of reading outliers. These are readings outside of the 95
 
 We don't think that diurnal variation is a very useful measure, but other people do so we have included it. The top line of this table shows whether the denominator for the diurnal variation is the predicted peak flow or the mean of all the readings in the record. The rows show the minimum, mean and maximum diurnal variation for each type of day. The table below shows higher diurnal variation on days at work.
 
-![](/assets/images/oasys_diurnal_variation_table.gif)
+![](images/oasys_diurnal_variation_table.gif)
 
 {{< middle-section-2 >}}
 
@@ -47,7 +47,7 @@ The example below shows two exposures which both appear to be a problem, althoug
 
 {{< /middle-section-2 >}}
 
-![](/assets/images/oasys_work_exposure_table.gif)
+![](images/oasys_work_exposure_table.gif)
 
 ### Scores
 

@@ -7,7 +7,7 @@ description: "How to reset your password in Oasys"
 
 In order to reset your password click on "File - Reset password". A new window will appear where you reset your password.
 
-![](/assets/images/oasys_reset_password_2026.png)
+![](images/oasys_reset_password_2026.png)
 
 {{< middle-section-1 >}}
 

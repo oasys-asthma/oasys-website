@@ -7,7 +7,7 @@ description: "How to create an account in Oasys"
 
 In order to create an account click on "File - Sign up on Oasys server". A new window will appear where you can enter your details.
 
-![](/assets/images/oasys_register_2026.png)
+![](images/oasys_register_2026.png)
 
 {{< middle-section-1 >}}
 

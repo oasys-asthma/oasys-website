@@ -1,12 +1,22 @@
 {{- if .IsBlock -}}
+{{ $original := resources.Get .Destination }}
+{{ $url := .Destination }}
+{{ with try ($original.Process "webp") }}
+{{ with .Value }}
+{{ $url = .RelPermalink }}
+{{ end }}
+{{ end }}
 </div>
 </div>
 </section>
 <section class="image background-0">
     <div>
-        <img src="{{ .Destination | safeURL }}"
+        <img src="{{ $url }}"
              {{- with .PlainText }} alt="{{ . }}" {{ end -}}
              {{- with .Title }} title="{{ . }}" {{ end -}}>
+        <!-- <img src="{{ .Destination | safeURL }}"
+             {{- with .PlainText }} alt="{{ . }}" {{ end -}}
+             {{- with .Title }} title="{{ . }}" {{ end -}}> -->
     </div>
 </section>
 <section class="text left background-0">

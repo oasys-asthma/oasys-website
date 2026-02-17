@@ -15,7 +15,7 @@ We recommend that you do this. However you can click on "Tools - Save Local Back
 
 {{< /middle-section-1 >}}
 
-![](/assets/images/oasys_save_local_backups_prompt_2010.gif)
+![](images/oasys_save_local_backups_prompt_2010.gif)
 
 If one of your colleagues opens this same record at this point they will only see the old version and will not be able to see any changes you have made, so you should try and save these local backups as soon as possible.
 

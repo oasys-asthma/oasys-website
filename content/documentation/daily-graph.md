@@ -34,7 +34,7 @@ The x axis for each day shows the day of the week ("Date", M = Monday, T = Tuesd
 
 {{< /middle-section-2 >}}
 
-![](/assets/images/oasys_daily_graph_2010.gif)
+![](images/oasys_daily_graph_2010.gif)
 
 {{< middle-section-3 >}}
 
@@ -44,5 +44,5 @@ To the right of the graph is a legend explaining all the lines and backgrounds o
 
 {{< /middle-section-3 >}}
 
-![](/assets/images/oasys_daily_legend_2010.gif)
+![](images/oasys_daily_legend_2010.gif)
 

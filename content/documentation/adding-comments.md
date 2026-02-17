@@ -11,12 +11,12 @@ Comments are also used to exclude certain sections of a record if required (for 
 
 General comments can be added for the entire record, or more specific comments can be added to only a certain part of the record. To add a comment to a particular day first click that day on the daily graph. A dotted rectangle will be shown around the day. Extra days can be chosen by holding down Shift and Ctrl and clicking on other days (standard Windows idioms). The example Daily graph below shows that Oasys has spotted a possible respiratory tract infection and the user has selected this period ready to add a comment. When you have finished choosing days click "Add Comment". If you wish to add a general comment for the record simply make sure that no days are selected before clicking "Add Comment" (this is the default situation).
 
-![](/assets/images/oasys_daily_graph_selected_days_2010.gif)
+![](images/oasys_daily_graph_selected_days_2010.gif)
 
 Once you have clicked "Add Comment" a new window will open with some options, as shown below. Please enter your name (this will be entered automatically if you have put it in before). The "Date Range" can be entered by hand if you wish, but it is much easier to choose the days on the Daily graph (as explained earlier) and click on one of the "Suggested date ranges" which will automatically add the dates for you. The date ranges work with the [Pseudo Day Interpreted Data](/documentation/pseudo-day-interpretation) (which is the default) so will usually have start and end times that look strange at first glance. Do not worry about this. Add your comment in the "Comments" box, preferably including the dates of the comment in the text (you can click on "Add Dates to comment" and Oasys will add them automatically). If you wish to exclude the portion of the record that you have chosen then tick the "Exclude the readings from this date range" box.
 
-![](/assets/images/oasys_add_comment_2010.gif)
+![](images/oasys_add_comment_2010.gif)
 
 Comments are shown under the "Add Comment" button on the "Daily" section of the Oasys report (example below). To edit or delete comments click on the "Edit" or "Delete" buttons to the right of each comment (also on the example below).
 
-![](/assets/images/oasys_daily_graph_excluded_days_2010.gif)
+![](images/oasys_daily_graph_excluded_days_2010.gif)

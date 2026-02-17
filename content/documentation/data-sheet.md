@@ -7,7 +7,7 @@ description: "How to enter spirometry and event readings in Oasys using the Data
 
 The data entry sheet is used to enter peak flow readings, times of waking, starting work, ending work and sleeping and the type of exposure whilst at work. The data sheet is opened by clicking 'View - Data Sheet'. The graphs on the right hand side of this window require downloaded graph data from an electronic meter, and currently, all the ones Oasys supports have been discontinued.
 
-![](/assets/images/oasys_open_from_internet_2010.gif)
+![](images/oasys_open_from_internet_2010.gif)
 
 {{< middle-section-1 >}}
 
@@ -45,7 +45,7 @@ Readings where the status has been set or that have a comment are displayed in i
 
 ### Entering Event Times (working, sleeping)
 
-The Symbols (![](/assets/images/WakeUp16.ico), ![](/assets/images/StartWork16.ico), ![](/assets/images/EndWork16.ico), ![](/assets/images/GoToBed16.ico))  are used to signify the "Waking Up", "Starting Work", "Ending Work" and "Going To Bed" events.
+The Symbols (![](images/WakeUp16.ico), ![](images/StartWork16.ico), ![](images/EndWork16.ico), ![](images/GoToBed16.ico))  are used to signify the "Waking Up", "Starting Work", "Ending Work" and "Going To Bed" events.
 
 Events are entered by pressing the plus key or the enter key in the required box. Oasys automatically puts in the next logical event (Eg. after going to bed the next event must be to wake up). If this is not the desired event then press plus or enter again until the correct event is shown, or until the event is removed (if you wish to delete it).
 
@@ -89,8 +89,8 @@ You can also "Additional - Insert Hour" to shift everything after the current po
 
 Readings and events are usually entered to the nearest hour, but can be put in more precisely if required, using the triangular button to the left of the readings and to the right of the events. Simply click on the grey triangle next to the reading or event and drag it up and down to set the time.
 
-If "Overlap" is shown in a box (only "Overl" is initially visible) then there is more than one reading within the hour. Holding the mouse over the box will list the readings. When this happens with events (waking up, going to bed, starting work, stopping work) the WSEB symbol is shown (![](/assets/images/OverlapEvents16.ico)). Holding the mouse over the symbol will display list all these events.
+If "Overlap" is shown in a box (only "Overl" is initially visible) then there is more than one reading within the hour. Holding the mouse over the box will list the readings. When this happens with events (waking up, going to bed, starting work, stopping work) the WSEB symbol is shown (![](images/OverlapEvents16.ico)). Holding the mouse over the symbol will display list all these events.
 
 Readings shown in bold are outside of the 95% confidence interval for the record. Note that as more readings are added to a record the 95% confidence interval will change so it is best to review these readings once you have finished typing in the data.
 
-If there is a gap in the record where the patient has not taken any readings you can add a discontinuity and Oasys will effectively ignore it. This is only worth doing for gaps that are a day long or more. To do this add a "Wake Up" event at the start of the gap. Than move to the next hour down and click "Additional - Insert Discontinuity", then add a "Go To Bed" event at the end of the gap. The discontinuity is marked using the (![](/assets/images/Discontinuity16.ico)) symbol.
+If there is a gap in the record where the patient has not taken any readings you can add a discontinuity and Oasys will effectively ignore it. This is only worth doing for gaps that are a day long or more. To do this add a "Wake Up" event at the start of the gap. Than move to the next hour down and click "Additional - Insert Discontinuity", then add a "Go To Bed" event at the end of the gap. The discontinuity is marked using the (![](images/Discontinuity16.ico)) symbol.

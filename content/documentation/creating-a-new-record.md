@@ -7,7 +7,7 @@ description: "Creating a new record in Oasys"
 
 To create a new serial peak flow record click "File - New Record (on Oasys Server)". A new wizard will open to guide you through the various sections.
 
-![](/assets/images/oasys_new_internet_record_2010.gif)
+![](images/oasys_new_internet_record_2010.gif)
 
 ### Choosing the patient
 

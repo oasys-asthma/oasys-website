@@ -25,13 +25,13 @@ Because they are occasional twenty-somethings and some readings ending in 5 ther
 
 {{< /middle-section-1 >}}
 
-![](/assets/images/oasys_number_preference_rounding_to_nearest_50.gif)
+![](images/oasys_number_preference_rounding_to_nearest_50.gif)
 
 ### Rounding to the nearest 25
 
 These graphs show a patient rounding to the nearest 25. In the same way as before we can tell that all the readings end in a zero or a five (the graph on the left). We can also tell that all the readings end in zero-something, twenty-something, fifty-something or seventy-something. Putting this together we can say that the patient is rounding to the nearest 25.
 
-![](/assets/images/oasys_number_preference_rounding_to_nearest_25.gif)
+![](images/oasys_number_preference_rounding_to_nearest_25.gif)
 
 {{< middle-section-2 >}}
 
@@ -41,15 +41,15 @@ These graphs probably show evidence of made up readings. There are big spikes in
 
 {{< /middle-section-2 >}}
 
-![](/assets/images/oasys_number_preference_made_up_readings.gif)
+![](images/oasys_number_preference_made_up_readings.gif)
 
 #### Normal number preference
 
 The graph below is probably normal number preference for a patient with low variability (showing a "hill" effect). The majority of the readings end in fifty-something (350 in this case), The patient's peak flow does not vary much so the next most common readings end in forty-something or sixty-something (340 and 360 in this case). She does have higher and lower blows but these are rare. Note that the hill effect can also "wrap around" from zero to nine.
 
 
-![](/assets/images/oasys_number_preference_normal_low_variability.gif)
+![](images/oasys_number_preference_normal_low_variability.gif)
 
 The graph below is probably normal number preference for a patient with high variability. The tens number preference is roughly equal for all the digits. This patient's peak flow commonly varies by 100 L/Min or more so there is no hill effect.
 
-![](/assets/images/oasys_number_preference_normal_high_variability.gif)
+![](images/oasys_number_preference_normal_high_variability.gif)

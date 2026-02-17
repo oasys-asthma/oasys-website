@@ -9,7 +9,7 @@ Oasys "Interprets" / pre processes the raw serial peak flow data before analysis
 
 If you do wish to change the "Interpretation" options then click "Edit - Interpretation" and a new window will pop up.
 
-![](/assets/images/oasys_interpretation_options_2010.gif)
+![](images/oasys_interpretation_options_2010.gif)
 
 ### Exclude Marked Ranges
 

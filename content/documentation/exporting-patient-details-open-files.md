@@ -15,4 +15,4 @@ If you already have the records open that you want to export then this method is
 
 To begin click on "Tools - Export Patient Details for all Open Records" from the main menu. A new window will appear showing an option to anonymise the records. Tick the option as desired, choose the name of the file to export to and click on "Ok". A new patient details file will be created which you can then send to a colleague. 
 
-![](/assets/images/oasys_export_patient_details_for_open_files.gif)
+![](images/oasys_export_patient_details_for_open_files.gif)

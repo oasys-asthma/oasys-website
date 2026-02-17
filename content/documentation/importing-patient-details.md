@@ -19,7 +19,7 @@ Choose the name of the file to import and click "Next".
 
 {{< /middle-section-1 >}}
 
-![](/assets/images/oasys_import_patient_details_choose_file_2010.gif)
+![](images/oasys_import_patient_details_choose_file_2010.gif)
 
 {{< middle-section-2 >}}
 
@@ -35,7 +35,7 @@ Tick the records that you would like the importing file to overwrite and click "
 
 {{< /middle-section-2 >}}
 
-![](/assets/images/oasys_import_patient_details_record_conflicts_2010.gif)
+![](images/oasys_import_patient_details_record_conflicts_2010.gif)
 
 {{< middle-section-3 >}}
 
@@ -51,7 +51,7 @@ Tick the patients that you would like the importing file to overwrite and click 
 
 {{< /middle-section-3 >}}
 
-![](/assets/images/oasys_import_patient_details_patient_conflicts_2010.gif)
+![](images/oasys_import_patient_details_patient_conflicts_2010.gif)
 
 {{< middle-section-1 >}}
 
@@ -63,4 +63,4 @@ Click "Finish" when done.
 
 {{< /middle-section-1 >}}
 
-![](/assets/images/oasys_import_patient_details_2010.gif)
+![](images/oasys_import_patient_details_2010.gif)

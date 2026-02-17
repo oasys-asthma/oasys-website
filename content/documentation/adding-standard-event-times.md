@@ -11,7 +11,7 @@ For example a patient might always start work at 9am and always finish work at 5
 
 To start click on "Tools - Add standard event times", a new window will open with a list of tabs across the top for the various sections.
 
-![](/assets/images/oasys_add_standard_event_times_2010.gif)
+![](images/oasys_add_standard_event_times_2010.gif)
 
 The options default to adding no events, so you must set some of the options for something to happen.
 

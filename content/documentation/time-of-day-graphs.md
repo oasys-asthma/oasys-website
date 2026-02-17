@@ -43,13 +43,13 @@ This graph shows data for all rest readings and all work readings, irrespective 
 
 {{< /middle-section-3 >}}
 
-![](/assets/images/oasys_hourly_timeofday_work_2010.gif)
+![](images/oasys_hourly_timeofday_work_2010.gif)
 
 ### Average Hour for Rest and Day (or Afternoon) Shift Days
 
 This graph shows data for all rest readings and Day Shift (or Afternoon Shift) readings only. The two vertical black lines at the edge of the grey area indicate the mode times of starting and ending work. Any darker grey areas (none on this graph) show the earliest and latest time of starting and ending work. The fact that there are no darker grey areas tells us that the patient starts and ends work at the same time every day during the record (when working a day shift). The night shift graph later demonstrates a variable end of work time.
  
-![](/assets/images/oasys_hourly_timeofday_day_2010.gif)
+![](images/oasys_hourly_timeofday_day_2010.gif)
 
 {{< middle-section-1 >}}
 
@@ -61,7 +61,7 @@ To make the night shift graph easier to view the  x axis starts at midday, runs 
 
 {{< /middle-section-1 >}}
 
-![](/assets/images/oasys_hourly_timeofday_night_2010.gif)
+![](images/oasys_hourly_timeofday_night_2010.gif)
 
 ### Average Hour for Rest and Work Exposures
 
@@ -69,4 +69,4 @@ If you have entered multiple work exposures in the record  (defined in the [pati
 
 On the graphs below there is no light grey shaded area. This tells us that the latest time of starting work and the earliest time of ending work overlap. The black vertical lines still give the mode time of starting and ending work. In the first graph below we can see that the earliest time of starting work is 3am and the latest time of ending work is 7pm (the same as the moéde).
 
-![](/assets/images/oasys_hourly_timeofday_exposure_2010.gif)
+![](images/oasys_hourly_timeofday_exposure_2010.gif)

@@ -9,7 +9,7 @@ You can remove patients and records from your patient details file. This can be 
 
 To start, click on "Tools - Delete Patients and Records" and a new window will be shown.
 
-![](/assets/images/oasys_delete_patients_records_2010.gif)
+![](images/oasys_delete_patients_records_2010.gif)
 
 The left hand side shows all the patients in your patient details file. Tick each patient that you wish to remove. You may want to scroll the box to the right to see the date of birth. When you tick a patient all the records for that patient are automatically ticked as well. A message will pop up telling you about this. You can manually untick these records later but without the patient Oasys will not let you open them, so you will only need to do this if you have ticked the wrong patient by mistake.
 
@@ -17,6 +17,6 @@ The right hand side shows all the serial peak flow records in your patient detai
 
 Once all the patients and records that you wish to remove are ticked click on "Remove Ticked Patients and Records". A new confirmation window will be shown just displaying the patients and records that will be deleted. Please check these carefully!
 
-![](/assets/images/oasys_delete_patients_records_confirm_2010.gif)
+![](images/oasys_delete_patients_records_confirm_2010.gif)
 
 Once you have checked that the patients and records are the ones that you wish to delete click on "Remove Ticked Patients and Records". You will not be able to undo this change.

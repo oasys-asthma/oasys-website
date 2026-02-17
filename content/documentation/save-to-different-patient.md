@@ -19,7 +19,7 @@ There are also some advantages that Oasys can give you when this is done. For ex
 
 To change the patient for a record (and in the example above bring together the two records for "Joe Bloggs") click on "File - Save to Different Patient" from the main menu and a new window will open. Click on the patient that you want to change to, tick the box to confirm the change and then click OK.
 
-![](/assets/images/oasys_save_to_different_patient_2010.gif)
+![](images/oasys_save_to_different_patient_2010.gif)
 
 {{< middle-section-2 >}}
 
