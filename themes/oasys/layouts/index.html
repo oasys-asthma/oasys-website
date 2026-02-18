@@ -5,9 +5,12 @@
 <body>
     {{- partial "header.html" . -}}
     <main>
-        <section class="page-header end-of-chunk">
+        <section class="page-header end-of-chunk text left">
             <div>
-                <p>Oasys is a free award winning app for microsoft windows that plots and interprets serial peak expiratory flow (PEF) readings of patients suspected as having occupational asthma or work-related asthma. The computer generated score has a 94% specificity for occupational asthma diagnosis and a 75% sensitivity.</p>
+                <div>
+                    <h2>Occupational Asthma System</h2>
+                    <p>Oasys is a free award winning app for microsoft windows that plots and interprets serial peak expiratory flow (PEF) readings of patients suspected as having occupational asthma or work-related asthma. The computer generated score has a 94% specificity for occupational asthma diagnosis and a 75% sensitivity.</p>
+                </div>
             </div>
         </section>
 
@@ -16,11 +19,11 @@
                 <div>
                     <div class="card-chain">
                         <div class="card-chain-segment">
-                            <div class="card card-3">
+                            <a class="card card-1" href="/install/">
                                 <div class="bullet">1</div>
                                 <p>Download the Oasys windows app and create an account</p>
-                            </div>
-                            <div class="connector card-3">
+                            </a>
+                            <div class="connector card-1">
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <use href="/corner-right-down.svg#img" />
                                 </svg>
@@ -28,23 +31,23 @@
                         </div>
 
                         <div class="card-chain-segment">
-                            <div class="connector card-1">
+                            <div class="connector card-2">
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <use href="/corner-left-down.svg#img" />
                                 </svg>
                             </div>
-                            <div class="card card-1">
+                            <div class="card card-2">
                                 <div class="bullet">2</div>
                                 <p>Patient records 2 hourly peak flow for 4 weeks</p>
                             </div>
                         </div>
 
                         <div class="card-chain-segment">
-                            <div class="card card-5">
+                            <a class="card card-3" href="/documentation/data-sheet">
                                 <div class="bullet">3</div>
                                 <p>Enter results into Oasys</p>
-                            </div>
-                            <div class="connector card-5">
+                            </a>
+                            <div class="connector card-3">
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <use href="/corner-right-down.svg#img" />
                                 </svg>
@@ -54,10 +57,10 @@
                         <div class="card-chain-segment">
                             <div class="connector">
                             </div>
-                            <div class="card card-3">
+                            <a class="card card-4" href="/documentation/oasys-report">
                                 <div class="bullet">4</div>
                                 <p>View the insights in the report</p>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>

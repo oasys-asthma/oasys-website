@@ -472,6 +472,7 @@ body>header {
     display: flex;
     flex-direction: row;
     gap: var(--s0);
+    align-items: anchor-center;
 
     >ul {
       list-style-type: none;
@@ -804,6 +805,8 @@ body {
 
   section.cards {
     >div {
+      max-inline-size: calc(var(--measure-big) + var(--s1) + var(--s1));
+
       div.title {
         margin-block-end: var(--s0);
       }
@@ -823,7 +826,7 @@ body {
 
         div.card,
         a.card {
-          /* This 25em should be the same as the 28em in the container query below */
+          /* This 25em should be the same as the 25em in the container query below */
           flex-basis: calc((25em - 100%) * 999);
         }
 
@@ -842,10 +845,12 @@ body {
         display: flex;
         flex-flow: row nowrap;
 
-        div.card {
+        div.card,
+        a.card {
           flex-basis: 50%;
         }
 
+        a.card+div.connector,
         div.card+div.connector {
           justify-content: start;
         }
@@ -1203,48 +1208,39 @@ h2 {
 }
 
 .card.card-1 {
-  color: var(--grayscale-black);
-  background-color: var(--card-background-1);
+  color: var(--foreground-5);
+  background-color: var(--background-5);
 }
 
 .card-1.connector {
-  color: var(--card-background-1);
+  color: var(--background-5);
 }
 
 .card.card-2 {
-  color: var(--grayscale-black);
-  background-color: var(--card-background-2);
+  color: var(--foreground-2);
+  background-color: var(--background-2);
 }
 
 .connector.card-2 {
-  color: var(--card-background-2);
+  color: var(--background-2);
 }
 
 .card.card-3 {
-  color: var(--grayscale-white);
-  background-color: var(--card-background-3);
+  color: var(--foreground-3);
+  background-color: var(--background-3);
 }
 
 .connector.card-3 {
-  color: var(--card-background-3);
+  color: var(--background-3);
 }
 
 .card.card-4 {
-  color: var(--grayscale-black);
-  background-color: var(--card-background-4);
+  color: var(--foreground-4);
+  background-color: var(--background-4);
 }
 
 .connector.card-4 {
-  color: var(--card-background-4);
-}
-
-.card.card-5 {
-  color: var(--grayscale-black);
-  background-color: var(--card-background-5);
-}
-
-.connector.card-5 {
-  color: var(--card-background-5);
+  color: var(--background-4);
 }
 
 .background-0 {

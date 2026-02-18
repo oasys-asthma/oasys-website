@@ -3,16 +3,10 @@
 Homepage
 - [ ] add links to the cards on the home page
 - [ ] maybe some other stuff
-Header
-- [ ] ?Match baseline of Oasys h1 in header and nav links
 Footer
 - [?] privacy policy
 - [?] terms and conditions maybe
 - [ ] faq page maybe later
-References page
- - [ ] add a logo button type thing to download the medline thing
- - [ ] add the 25 papers left on link below, maybe keep the headings
-  - https://www.occupationalasthma.com/oasysreferences.aspx
 Team page
   - [ ] get images from people and add these
 Misc
@@ -25,7 +19,6 @@ try to get on netlify for feedback this week
 - [ ] Accesibility, put the axe tools on it
 - [ ] new image for oasys_audit_center_report_2011.jpg. Probably ask sam or vicky
 - [ ] Remove unused css
- - [ ] ...
 
 ## Reference
 
