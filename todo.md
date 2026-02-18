@@ -1,33 +1,30 @@
 # todo
 
-pics
-- fix inline images
 Homepage
-- [ ] do something with home page 
- - [ ] add links to the cards on the home page
+- [ ] add links to the cards on the home page
+- [ ] maybe some other stuff
 Header
-- [ ] add links to download, team, and references
 - [ ] ?Match baseline of Oasys h1 in header and nav links
-- [ ] references
-- [ ] download / install page. link to microsoft store
 Footer
 - [?] privacy policy
 - [?] terms and conditions maybe
+- [ ] faq page maybe later
 References page
- - [ ] add some details about the oasys references, probably a shortcode for a reference makes sense.
+ - [ ] add a logo button type thing to download the medline thing
+ - [ ] add the 25 papers left on link below, maybe keep the headings
   - https://www.occupationalasthma.com/oasysreferences.aspx
 Team page
   - [ ] get images from people and add these
 Misc
 - [ ] have some sort of ci, probably netlify
 - [ ] deploy to netlify with a weird url and send round to people
+try to get on netlify for feedback this week
 
 - [ ] do new domain in azure if poss, and link to it
 - [ ] maybe add shortcodes for FEV1 or something to subscript the 1. not sure if thats how it looks though
 - [ ] Accesibility, put the axe tools on it
 - [ ] new image for oasys_audit_center_report_2011.jpg. Probably ask sam or vicky
 - [ ] Remove unused css
- - [ ] all the span stuff i think
  - [ ] ...
 
 ## Reference

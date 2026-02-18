@@ -283,10 +283,6 @@ body.form main {
           border-radius: var(--s-3);
           border: var(--border-regular);
 
-          span {
-            color: var(--grayscale-dark-gray);
-          }
-
           input {
             border: none;
           }
@@ -364,10 +360,6 @@ body.form main {
       outline: solid var(--s-9) var(--grayscale-light-gray);
       outline-offset: 0;
       border-color: transparent;
-    }
-
-    span.smallprint {
-      font: var(--font-body-very-small);
     }
 
     button {
@@ -527,6 +519,17 @@ body>header {
 
 /* Shared 
 ------------------------------------------------- */
+.reference-other {
+  line-height: var(--line-height);
+  font-size: small;
+  display: block;
+}
+
+.reference-title {
+  line-height: var(--line-height);
+  display: block;
+}
+
 blockquote {
   font-style: italic;
 
@@ -671,33 +674,6 @@ body {
 
           }
 
-          h2,
-          h3,
-          p>span {
-            border-radius: var(--s-6);
-            box-decoration-break: clone;
-          }
-
-          h2>span {
-            padding-block: var(--font-h2-padding);
-            padding-inline: var(--s-3);
-          }
-
-          h3>span {
-            padding-block: var(--font-h3-padding);
-            padding-inline: var(--s-3);
-          }
-
-          p>span {
-            padding-block: var(--font-body-padding);
-            padding-inline: var(--s-5);
-          }
-
-          p>span.every-body {
-            padding: 0;
-            border-radius: 0;
-          }
-
           a {
             margin-right: auto;
 
@@ -788,27 +764,6 @@ body {
             }
           }
 
-          h2,
-          h3,
-          p>span {
-            border-radius: var(--s-6);
-            box-decoration-break: clone;
-          }
-
-          h2>span {
-            padding-block: var(--font-h2-padding);
-            padding-inline: var(--s-1);
-          }
-
-          h3>span {
-            padding-block: var(--font-h3-padding);
-            padding-inline: var(--s-3);
-          }
-
-          p>span {
-            padding-block: var(--font-body-padding);
-            padding-inline: var(--s-5);
-          }
         }
       }
     }
@@ -1026,23 +981,6 @@ body {
           padding-block: var(--s-4);
           max-inline-size: var(--measure);
 
-          h3,
-          p>span {
-            border-radius: var(--s-6);
-            padding: var(--s-4);
-            box-decoration-break: clone;
-          }
-
-          h3>span {
-            padding-block: var(--font-h3-padding);
-            padding-inline: var(--s-3);
-          }
-
-          p>span {
-            padding-block: var(--font-body-padding);
-            padding-inline: var(--s-5);
-          }
-
           h3 {
             inline-size: fit-content;
             font: var(--font-h4);
@@ -1149,22 +1087,6 @@ body {
         display: flex;
         flex-direction: column;
         row-gap: var(--s-4);
-
-        h3>span,
-        p>span {
-          border-radius: var(--s-6);
-          box-decoration-break: clone;
-        }
-
-        h3>span {
-          padding-inline: var(--s-3);
-          padding-block: var(--font-h3-padding)
-        }
-
-        p>span {
-          padding-inline: var(--s-5);
-          padding-block: var(--font-body-padding)
-        }
 
         h3 {
           inline-size: fit-content;
@@ -1382,6 +1304,21 @@ h2 {
 .background-6 {
   background-color: var(--background-6);
   color: var(--foreground-6);
+}
+
+a[download] {
+  font: var(--font-body);
+  color: var(--grayscale-black);
+  background-color: var(--secondary);
+  border-radius: var(--s4);
+  padding-inline: var(--s3);
+  padding-block: var(--s-2);
+  width: 100%;
+  text-decoration: none;
+}
+
+p:has(a[download]) {
+  margin-block: var(--s0);
 }
 
 a.button {

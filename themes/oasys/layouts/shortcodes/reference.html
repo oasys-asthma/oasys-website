@@ -1,0 +1,10 @@
+{{ $authors := .Get "authors" }}
+{{ $title := .Get "title" }}
+{{ $url := .Get "url" }}
+{{ $journal := .Get "journal" }}
+{{ $edition := .Get "edition" }}
+
+<p>
+    <span class="reference-title">{{ if eq $url "" }}{{ $title }}{{ else }}<a href="{{ $url }}">{{$title }}</a>{{ end }}</span>
+    <span class="reference-other">{{ $authors }}, {{ $journal }}, {{ $edition }}</span>
+</p>
