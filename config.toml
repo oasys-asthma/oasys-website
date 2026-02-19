@@ -1,7 +1,7 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-uk'
 title = 'Oasys'
-theme = "Oasys"
+theme = "oasys"
 enableRobotsTXT = true
 
 [markup]
