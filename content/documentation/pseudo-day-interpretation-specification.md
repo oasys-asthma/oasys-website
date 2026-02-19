@@ -39,4 +39,4 @@ When a patient is working a constant shift for a number of days all readings are
 
 When a patient is resting for a number of days all readings are said to be non-exposed. The rules create rest pseudo days from after a waking reading through to after the next waking reading.
 
-Please read the full [day interpretation specification (pdf)](/assets/pdfs/oasys-day-interpretation.pdf) for more details.
+Please read the full [day interpretation specification (pdf)](/pdfs/oasys-day-interpretation.pdf) for more details.

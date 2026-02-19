@@ -80,18 +80,18 @@ Working with Records
 Working with the Patient Details file
 
 - [Sharing your Patient Details](/documentation/sharing-patient-details)
+- [Save to a Different Patient](/documentation/save-to-different-patient)
+- [Deleting Patients and Records](/documentation/deleting-patients-and-records)
 - [Exporting Patient Details](/documentation/exporting-patient-details)
 - [Exporting patient details for open files](/documentation/exporting-patient-details-open-files)
 - [Importing patient details](/documentation/importing-patient-details)
-- [Deleting Patients and Records](/documentation/deleting-patients-and-records)
-- [Save to a Different Patient](/documentation/save-to-different-patient)
 
 Other Stuff
 
+- [Instructing patients](/documentation/patient-instruction)
 - [Connection checker](/documentation/connection-checker)
 - [Oasys Options](/documentation/oasys-options)
 - [Choosing the Interpretation](/documentation/choosing-the-interpretation)
 - [Pseudo Day Interpretation](/documentation/pseudo-day-interpretation)
 - [Specificity and Sensitivity](/documentation/sensitivity-and-specificity)
 - [The Serial Plot](/documentation/serial-plot)
-- [Oasys Messages](/documentation/analysis-messages)

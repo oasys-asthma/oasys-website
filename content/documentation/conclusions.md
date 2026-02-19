@@ -15,7 +15,7 @@ This section shows the name, patient id, dates of the record, peak flow meter us
 
 ### Quality
 
-This section starts off by stating whether the record is of optimal quality for Oasys and quotes the published specificity and sensitivity for the level of quality. Click to view the [paper that defines sensitivity and specificity for the different levels of quality](/assets/pdfs/eopefdqodsasioa.pdf).
+This section starts off by stating whether the record is of optimal quality for Oasys and quotes the published specificity and sensitivity for the level of quality. Click to view the [paper that defines sensitivity and specificity for the different levels of quality](/pdfs/eopefdqodsasioa.pdf).
 
 The quality for the ABC score and timepoint score follow.
 

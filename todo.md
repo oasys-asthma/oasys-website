@@ -1,8 +1,5 @@
 # todo
 
-Homepage
-- [ ] add links to the cards on the home page
-- [ ] maybe some other stuff
 Footer
 - [?] privacy policy
 - [?] terms and conditions maybe
@@ -14,11 +11,17 @@ Misc
 - [ ] deploy to netlify with a weird url and send round to people
 try to get on netlify for feedback this week
 
+- [ ] add testimonials / partners somewhere, maybe home page, maybe link from footer.
+- [ ] add instructions for more meters, maybe more videos
 - [ ] do new domain in azure if poss, and link to it
 - [ ] maybe add shortcodes for FEV1 or something to subscript the 1. not sure if thats how it looks though
 - [ ] Accesibility, put the axe tools on it
 - [ ] new image for oasys_audit_center_report_2011.jpg. Probably ask sam or vicky
 - [ ] Remove unused css
+- [?] Evaluation of an expert system for the interpretation of serial peak expiratory flow measurements in the diagnosis of occupational asthma in a field trial	
+The Oasys group has done contracted out research for the HSE using Oasys-2. The full report of this research can be found on the HSE website from the link below.
+http://www.hse.gov.uk/research/crr_htm/2002/crr02450.htm
+- [ ] mention the awards somewhere
 
 ## Reference
 
