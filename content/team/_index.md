@@ -7,7 +7,7 @@ description: "The Oasys team, an independent group of clinicians and researchers
 
 {{< team-row >}}
 
-{{< team-person src="/images/team/cedd-burge.png" name="Sherwood Burge, Founder" bio="Trained by Prof Jack Pepys at the Brompton Hospital and set out to investigate how workers with specific inhalation tests reacted at work." >}}
+{{< team-person src="/images/team/sherwood-burge.png" name="Sherwood Burge, Founder" bio="Trained by Prof Jack Pepys at the Brompton Hospital and set out to investigate how workers with specific inhalation tests reacted at work." >}}
 
 {{< team-person src="/images/team/cedd-burge.png" name="Alastair Robertson, Founder" bio="Chariman of ANHOPS (Association of National Health Service Occupational Physicians) and a world expert on Sick Building Syndrome." >}}
 
@@ -27,7 +27,7 @@ description: "The Oasys team, an independent group of clinicians and researchers
 
 {{< team-row >}}
 
-{{< team-person src="/images/team/cedd-burge.png" name="Vicky Moore, Chief Clinical Scientist" bio="Chair of the ARTP spirometry committee and on the ERS spirometry committee. She created the Oasys ABC score for her PhD." >}}
+{{< team-person src="/images/team/vicky-moore.png" name="Vicky Moore, Chief Clinical Scientist" bio="Chair of the ARTP spirometry committee and on the ERS spirometry committee. She created the Oasys ABC score for her PhD." >}}
 
 {{< team-person src="/images/team/cedd-burge.png" name="Cedd Burge,  Tech Lead" bio="Created the Oasys timepoint score and the algorithms for pseudo day interpreation and respiratory tract infections." >}}
 
