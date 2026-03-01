@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://oasys-asthma.org/'
 languageCode = 'en-uk'
 title = 'Oasys'
 theme = "oasys"
