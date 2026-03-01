@@ -45,7 +45,7 @@ Please enter a list of exposures (if there is more than one during the record) u
 
 Please enter the level of exposure. For new records this will usually be "Original". A company will often try to reduce exposure for effected individuals, by providing extraction or by moving the worker to a different location. In this case the exposure would be "Decreased".
 
-Please enter the likely causative agents present in the workplace using the nearby "Add", "Edit" and "Remove" buttons. This does not have to a definitive list but more of a "best guess". For example an office worker will probably be exposed to "cleaning fluids". A paint sprayer will probably be exposed to isocyanates. A solderer will probably be exposed to rosin etc. See adding / editing agents for more details.
+Please enter the likely causative agents present in the workplace using the nearby "Add", "Edit" and "Remove" buttons. This does not have to a definitive list but more of a "best guess". For example an office worker will probably be exposed to "cleaning fluids". A paint sprayer will probably be exposed to isocyanates. A solderer will probably be exposed to rosin etc. See [adding / editing agents](/documentation/adding-agents) for more details.
 
 If you get confirmation that a particular agent is the cause of a patients occupational asthma we would greatly appreciate you editing the agent to indicate this. Results of Specific IgE tests and Specific Bronchial / Inhalation Challenges also very welcome.
 
