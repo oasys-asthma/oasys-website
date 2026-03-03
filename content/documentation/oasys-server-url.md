@@ -25,7 +25,7 @@ If this value is incorrect Oasys will not be able to connect to the Oasys Server
 
 The Url was originally:
 
-*{{< raw >}}https://www.occupationalasthma.com/cgi-bin/oasysserver.exe/BIN{{< /raw >}}*
+*{{< raw >}}http://www.occupationalasthma.com/cgi-bin/oasysserver.exe/BIN{{< /raw >}}*
 
 The Url changed on Jan 16 2024, after an upgrade to the security of the website (to use end to end encryption) to:
 
