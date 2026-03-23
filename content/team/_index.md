@@ -9,9 +9,9 @@ description: "The Oasys team, an independent group of clinicians and researchers
 
 {{< team-person src="/images/team/sherwood-burge.png" name="Sherwood Burge, Founder" bio="Trained by Prof Jack Pepys at the Brompton Hospital and set out to investigate how workers with specific inhalation tests reacted at work." >}}
 
-{{< team-person src="/images/team/cedd-burge.png" name="Alastair Robertson, Founder" bio="Chariman of ANHOPS (Association of National Health Service Occupational Physicians) and a world expert on Sick Building Syndrome." >}}
+{{< team-person src="/images/team/alastair-robertson.png" name="Alastair Robertson, Founder" bio="Chariman of ANHOPS (Association of National Health Service Occupational Physicians) and a world expert on Sick Building Syndrome." >}}
 
-{{< team-person src="/images/team/cedd-burge.png" name="Charles Pantin, Founder" bio="Consultant respiratory physician, senior Lecturer at the University of Keele with a PhD in Applied Mathematics." >}}
+{{< team-person src="/images/team/charles-pantin.png" name="Charles Pantin, Founder" bio="Consultant respiratory physician, senior Lecturer at the University of Keele with a PhD in Applied Mathematics." >}}
 
 {{< /team-row >}}
 
