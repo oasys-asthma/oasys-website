@@ -18,9 +18,9 @@ description: "The Oasys team, an independent group of clinicians and researchers
 
 {{< team-row >}}
 
-{{< team-person src="/images/team/cedd-burge.png" name="Gareth Walters, Chairman" bio="Clinical lead for the Birmingham Chest Clinic and honorary associate professor in respiratory medicine at Birmingham University Birmingham." >}}
+{{< team-person src="/images/team/gareth-walters.png" name="Gareth Walters, Chairman" bio="Clinical lead for the Birmingham Chest Clinic and honorary associate professor in respiratory medicine at Birmingham University Birmingham." >}}
 
-{{< team-person src="/images/team/cedd-burge.png" name="Chris Huntley, Research" bio="Consultant respiratory physician, primary investigator on research studies and honorary clinical tutor at Birmingham University." >}}
+{{< team-person src="/images/team/chris-huntley.png" name="Chris Huntley, Research" bio="Consultant respiratory physician, primary investigator on research studies and honorary clinical tutor at Birmingham University." >}}
 
 {{< /team-row >}}
 
@@ -29,6 +29,6 @@ description: "The Oasys team, an independent group of clinicians and researchers
 
 {{< team-person src="/images/team/vicky-moore.png" name="Vicky Moore, Consultant Clinical Scientist" bio="ARTP/BTS rep and member of ERS Spirometry group. She created the Oasys ABC score as part of her PhD." >}}
 
-{{< team-person src="/images/team/cedd-burge.png" name="Cedd Burge,  Tech Lead" bio="Created the Oasys timepoint score and the algorithms for pseudo day interpreation and respiratory tract infections." >}}
+{{< team-person src="/images/team/cedd-burge.png" name="Cedd Burge,  Tech Lead" bio="Created the Oasys timepoint score and the algorithms for pseudo day interpretation and respiratory tract infections." >}}
 
 {{< /team-row >}}
