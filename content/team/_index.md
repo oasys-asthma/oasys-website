@@ -22,6 +22,8 @@ description: "The Oasys team, an independent group of clinicians and researchers
 
 {{< team-person src="/images/team/chris-huntley.png" name="Chris Huntley, Research" bio="Consultant respiratory physician, primary investigator on research studies and honorary clinical tutor at Birmingham University." >}}
 
+{{< team-person src="/images/team/kim-nettleton.png" name="Kim Nettleton, Research" bio="Respiratory Registrar /Previous Clinical Research Fellow." >}}
+
 {{< /team-row >}}
 
 
