@@ -7,7 +7,7 @@ description: "How to enter spirometry and event readings in Oasys using the Data
 
 The data entry sheet is used to enter peak flow readings, times of waking, starting work, ending work and sleeping and the type of exposure whilst at work. The data sheet is opened by clicking 'View - Data Sheet'. The graphs on the right hand side of this window require downloaded graph data from an electronic meter, and currently, all the ones Oasys supports have been discontinued.
 
-![](images/oasys_open_from_internet_2010.gif)
+![](images/oasys_data_entry_sheet_2010.gif)
 
 {{< middle-section-1 >}}
 
